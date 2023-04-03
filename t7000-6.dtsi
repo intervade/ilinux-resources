@@ -1,0 +1,117 @@
+// SPDX-License-Identifier: GPL-2.0+ OR MIT
+/*
+ * Apple iPhone 6 / 6 Plus common device tree
+ * Copyright (c) 2022, Konrad Dybcio <konrad.dybcio@somainline.org>
+ */
+
+#include <dt-bindings/input/input.h>
+#include "t7000.dtsi"
+
+/ {
+	gpio-keys {
+		compatible = "gpio-keys";
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		home {
+			label = "Home Button";
+			gpios = <&pinctrl 32 GPIO_ACTIVE_LOW>;
+			linux,code = <KEY_LEFTMETA>;
+		};
+
+		power {
+			label = "Power Button";
+			gpios = <&pinctrl 33 GPIO_ACTIVE_LOW>;
+			linux,code = <KEY_POWER>;
+		};
+
+		volume-up {
+			label = "Volume Up";
+			gpios = <&pinctrl 45 GPIO_ACTIVE_LOW>;
+			linux,code = <KEY_VOLUMEUP>;
+		};
+
+		volume-down {
+			label = "Volume Down";
+			gpios = <&pinctrl 46 GPIO_ACTIVE_LOW>;
+			linux,code = <KEY_VOLUMEDOWN>;
+		};
+
+		mute-switch {
+			label = "Mute Switch";
+			gpios = <&pinctrl 131 GPIO_ACTIVE_LOW>;
+			linux,code = <KEY_MUTE>;
+		};
+	};
+};
+
+&i2c0 {
+	status = "okay";
+
+	/* ADI PMU (D2186) for Oscar, TouchID, BT, audio codec, battery, Lightning/USB, modem @ 74 */
+	/* LM3534 backlight controller @ 63 */
+	/* Tristar MUX chip @ 1A */
+	/* PMU (chestnut) for display @ 27 */
+};
+
+&i2c1 {
+	status = "okay";
+
+	/* Tigris charger (SN2400) @ 75 */
+	/* PWM vibrator (DRV2604) @ 5A */
+	/* Audio speaker (CS35L19B) @ 40 */
+};
+
+&i2c2 {
+	status = "okay";
+
+	/* ALS (CT814) @ 29 */
+};
+
+&serial0 {
+	status = "okay";
+};
+
+&serial1 {
+	status = "okay";
+
+	/* Bluetooth chip (BCM4345) */
+};
+
+&serial2 {
+	status = "okay";
+
+	/* Baseband */
+};
+
+&serial3 {
+	status = "okay";
+
+	/* Stockholm */
+};
+
+&serial4 {
+	status = "okay";
+
+	/* WLAN UART */
+};
+
+&serial5 {
+	status = "okay";
+
+	/* Fuel gauge (BQ27540) */
+};
+
+&serial6 {
+	status = "okay";
+
+	/* Apple IAP (something related to Lightning?) */
+};
+
+/* Serial7 remains unused on iPhone 6 series */
+
+&serial8 {
+	status = "okay";
+
+	/* Apple Oscar sensor hub */
+};

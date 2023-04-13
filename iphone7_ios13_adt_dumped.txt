@@ -1,0 +1,3079 @@
+device-tree:
+    target-type (4): "D10"
+    mlb-serial-number (29): "syscfg/MLB#/0x20,zeroes/0x20"
+    compatible (25): "D10AP\0iPhone9,1\0AppleARM\0"
+    secure-root-prefix (3): "md"
+    AAPL,phandle (4): 0x1
+    platform-name (32): ""
+    device_type (8): "bootrom"
+    region-info (29): "syscfg/Regn/0x20,zeroes/0x20"
+    regulatory-model-number (17): "syscfg/RMd#/0x20"
+    model-number (29): "syscfg/Mod#/0x20,zeroes/0x20"
+    #address-cells (4): 2
+    #size-cells (4): 2
+    serial-number (29): "syscfg/SrNm/0x20,zeroes/0x20"
+    clock-frequency (4): 0
+    manufacturer (11): "Apple Inc."
+    model (10): "iPhone9,1"
+    config-number (29): "syscfg/CFG#/0x20,zeroes/0x20"
+    name (12): "device-tree"
+    chosen:
+        development-cert (4): 0
+        disable-transport-rm (4): 0
+        amfi-only-platform-code (4): 0
+        coverglass-color (12): "syscfg/CLCG"
+        consistent-debug-root (8): 0
+        dram-vendor (16): ""
+        board-id (4): 0
+        root-matching (256): ""
+        unique-chip-id (8): 0
+        dram-vendor-id (4): 0
+        mac-address-bluetooth0 (29): "macaddr/btaddr,syscfg/BMac/6"
+        software-behavior (29): "syscfg/SwBh/0x10,zeroes/0x10"
+        backing-color (12): "syscfg/CLBG"
+        amfi-allows-trust-cache-load (4): 0
+        mix-n-match-prevention-status (4): 0
+        max-env-var-name-size (4): 0
+        certificate-security-mode (4): 0
+        display-rotation (4): 0
+        crypto-hash-method (9): "sha2-384"
+        marketing-software-behavior (12): "syscfg/MkBS"
+        secure-boot (4): 0
+        housing-color (12): "syscfg/CLHS"
+        gid-aes-key (4): 0
+        disable-av-content-protection (4): 0
+        image4-supported (0)
+        boot-nonce (8): 0
+        display-corner-radius (4): 0
+        uid-aes-key (4): 0
+        firmware-version (256): ""
+        cover-glass-material (12): "syscfg/CGMt"
+        boot-manifest-hash (48): ""
+        max-env-var-data-size (4): 0
+        random-seed (64): ""
+        max-env-partition (4): 0
+        chip-id (4): 0
+        name (7): "chosen"
+        ephemeral-storage (4): 0
+        osenvironment (32): ""
+        mac-address-ethernet0 (30): "macaddr/ethaddr,syscfg/EMac/6"
+        enclosure-material (12): "syscfg/EnMt"
+        debug-enabled (4): 0
+        system-trusted (4): 0
+        AAPL,phandle (4): 0x2
+        nvram-proxy-data (8192): ""
+        effective-production-status-sep (4): 0
+        backing-glass-material (12): "syscfg/BGMt"
+        mac-address-ethernet1 (31): "macaddr/ethaddr1,syscfg/EMc2/6"
+        protected-data-access (4): 0x1
+        effective-security-mode-ap (4): 0
+        effective-production-status-ap (4): 0
+        mac-address-wifi0 (31): "macaddr/wifiaddr,syscfg/WMac/6"
+        bootp-response (300): ""
+        use-recovery-securityd (4): 0
+        marketing-hardware-behavior (12): "syscfg/MkBH"
+        software-bundle-version (29): "syscfg/SBVr/0x10,zeroes/0x10"
+        die-id (8): 0
+        disable-accessory-firmware (4): 0
+        certificate-production-status (4): 0
+        production-cert (4): 0
+        #address-cells (4): 2
+        effective-security-mode-sep (4): 0
+        sepfw-load-at-boot (4): 0x1
+        display-scale (4): 0
+        manifest-properties:
+            UnusedIntegerProperty10 (8): 0
+            UnusedBooleanProperty3 (4): 0
+            UnusedIntegerProperty6 (8): 0
+            UnusedBooleanProperty18 (4): 0
+            UnusedBooleanProperty11 (4): 0
+            UnusedIntegerProperty15 (8): 0
+            UnusedIntegerProperty2 (8): 0
+            UnusedBooleanProperty6 (4): 0
+            UnusedIntegerProperty9 (8): 0
+            UnusedStringProperty2 (64): ""
+            UnusedBooleanProperty16 (4): 0
+            UnusedStringProperty5 (64): ""
+            UnusedIntegerProperty13 (8): 0
+            UnusedBooleanProperty2 (4): 0
+            UnusedIntegerProperty5 (8): 0
+            UnusedBooleanProperty9 (4): 0
+            UnusedStringProperty8 (64): ""
+            UnusedBooleanProperty14 (4): 0
+            UnusedIntegerProperty18 (8): 0
+            UnusedIntegerProperty1 (8): 0
+            UnusedIntegerProperty11 (8): 0
+            UnusedBooleanProperty5 (4): 0
+            UnusedIntegerProperty8 (8): 0
+            UnusedStringProperty0 (64): ""
+            UnusedBooleanProperty19 (4): 0
+            AAPL,phandle (4): 0x3
+            UnusedBooleanProperty12 (4): 0
+            UnusedIntegerProperty16 (8): 0
+            UnusedStringProperty3 (64): ""
+            UnusedBooleanProperty1 (4): 0
+            UnusedIntegerProperty4 (8): 0
+            UnusedBooleanProperty8 (4): 0
+            name (20): "manifest-properties"
+            UnusedStringProperty6 (64): ""
+            UnusedBooleanProperty17 (4): 0
+            UnusedBooleanProperty10 (4): 0
+            UnusedIntegerProperty0 (8): 0
+            UnusedIntegerProperty14 (8): 0
+            UnusedBooleanProperty4 (4): 0
+            UnusedIntegerProperty7 (8): 0
+            UnusedStringProperty9 (64): ""
+            UnusedBooleanProperty15 (4): 0
+            UnusedIntegerProperty19 (8): 0
+            UnusedStringProperty1 (64): ""
+            UnusedIntegerProperty12 (8): 0
+            UnusedBooleanProperty0 (4): 0
+            UnusedBooleanProperty7 (4): 0
+            UnusedIntegerProperty3 (8): 0
+            UnusedStringProperty4 (64): ""
+            UnusedBooleanProperty13 (4): 0
+            UnusedIntegerProperty17 (8): 0
+            UnusedStringProperty7 (64): ""
+        manifest-object-properties:
+            UnusedIntegerProperty10 (8): 0
+            UnusedBooleanProperty3 (4): 0
+            UnusedIntegerProperty6 (8): 0
+            UnusedBooleanProperty18 (4): 0
+            UnusedBooleanProperty11 (4): 0
+            UnusedIntegerProperty15 (8): 0
+            UnusedIntegerProperty2 (8): 0
+            UnusedBooleanProperty6 (4): 0
+            UnusedIntegerProperty9 (8): 0
+            UnusedStringProperty2 (64): ""
+            UnusedBooleanProperty16 (4): 0
+            UnusedStringProperty5 (64): ""
+            UnusedIntegerProperty13 (8): 0
+            UnusedBooleanProperty2 (4): 0
+            UnusedIntegerProperty5 (8): 0
+            UnusedBooleanProperty9 (4): 0
+            UnusedStringProperty8 (64): ""
+            UnusedBooleanProperty14 (4): 0
+            UnusedIntegerProperty18 (8): 0
+            UnusedIntegerProperty1 (8): 0
+            UnusedIntegerProperty11 (8): 0
+            UnusedBooleanProperty5 (4): 0
+            UnusedIntegerProperty8 (8): 0
+            UnusedStringProperty0 (64): ""
+            UnusedBooleanProperty19 (4): 0
+            AAPL,phandle (4): 0x4
+            UnusedBooleanProperty12 (4): 0
+            UnusedIntegerProperty16 (8): 0
+            UnusedStringProperty3 (64): ""
+            UnusedBooleanProperty1 (4): 0
+            UnusedIntegerProperty4 (8): 0
+            UnusedBooleanProperty8 (4): 0
+            name (27): "manifest-object-properties"
+            UnusedStringProperty6 (64): ""
+            UnusedBooleanProperty17 (4): 0
+            UnusedBooleanProperty10 (4): 0
+            UnusedIntegerProperty0 (8): 0
+            UnusedIntegerProperty14 (8): 0
+            UnusedBooleanProperty4 (4): 0
+            UnusedIntegerProperty7 (8): 0
+            UnusedStringProperty9 (64): ""
+            UnusedBooleanProperty15 (4): 0
+            UnusedIntegerProperty19 (8): 0
+            UnusedStringProperty1 (64): ""
+            UnusedIntegerProperty12 (8): 0
+            UnusedBooleanProperty0 (4): 0
+            UnusedBooleanProperty7 (4): 0
+            UnusedIntegerProperty3 (8): 0
+            UnusedStringProperty4 (64): ""
+            UnusedBooleanProperty13 (4): 0
+            UnusedIntegerProperty17 (8): 0
+            UnusedStringProperty7 (64): ""
+        memory-map:
+            MemoryMapReserved-14 (16): ""
+            MemoryMapReserved-5 (16): ""
+            MemoryMapReserved-11 (16): ""
+            MemoryMapReserved-0 (16): ""
+            MemoryMapReserved-6 (16): ""
+            AAPL,phandle (4): 0x5
+            MemoryMapReserved-15 (16): ""
+            MemoryMapReserved-1 (16): ""
+            MemoryMapReserved-7 (16): ""
+            MemoryMapReserved-12 (16): ""
+            MemoryMapReserved-2 (16): ""
+            MemoryMapReserved-8 (16): ""
+            MemoryMapReserved-3 (16): ""
+            MemoryMapReserved-9 (16): ""
+            MemoryMapReserved-10 (16): ""
+            MemoryMapReserved-13 (16): ""
+            MemoryMapReserved-4 (16): ""
+            name (11): "memory-map"
+            kernel-only (5): "true"
+        iBoot:
+            AAPL,phandle (4): 0x6
+            populate-registry-time (4): 0
+            load-kernel-start (4): 0
+            start-time (4): 0
+            debug-wait-start (4): 0
+            name (6): "iBoot"
+    options:
+        name (8): "options"
+        AAPL,phandle (4): 0x7
+    cpus:
+        #address-cells (4): 1
+        #size-cells (4): 0
+        name (5): "cpus"
+        AAPL,phandle (4): 0x8
+        cpu0:
+            AAPL,phandle (4): 0x9
+            fixed-frequency (8): 0
+            bus-frequency (8): 0
+            cpu-version (4): 0
+            memory-frequency (8): 0
+            name (5): "cpu0"
+            function-error_handler (12): "\x0f\0\0\0HrrE\0\0\0\0"
+            interrupt-parent (4): 0x10
+            reg-private (8): 0x202010000
+            state (8): "running"
+            compatible (30): "apple,hurricane-zephyr\0ARM,v8\0"
+            peripheral-frequency (8): 0
+            interrupts (12): 40 01 00 00 53 00 00 00 41 01 00 00
+            timebase-frequency (8): 0
+            function-enable_core (12): "\x12\0\0\0eroC\x01\0\0\0"
+            clock-frequency (8): 0
+            function-ipi_dispatch (12): "\x10\0\0\0DIPI@\x01\0\0"
+            function-ipi_dispatch_other (12): "\x10\0\0\0DIPIA\x01\0\0"
+            function-cpu_idle (8): "\x12\0\0\0Iupc"
+            device_type (4): "cpu"
+            reg (4): 0
+        cpu1:
+            reg-private (8): 0x202110000
+            state (8): "waiting"
+            function-cpu_idle (8): "\x12\0\0\0Iupc"
+            compatible (30): "apple,hurricane-zephyr\0ARM,v8\0"
+            interrupt-parent (4): 0x10
+            interrupts (12): 42 01 00 00 56 00 00 00 43 01 00 00
+            reg (4): 0x1
+            AAPL,phandle (4): 0xa
+            device_type (4): "cpu"
+            function-ipi_dispatch_other (12): "\x10\0\0\0DIPIC\x01\0\0"
+            function-error_handler (12): "\x0f\0\0\0HrrE\x01\0\0\0"
+            function-ipi_dispatch (12): "\x10\0\0\0DIPIB\x01\0\0"
+            function-enable_core (12): "\x12\0\0\0eroC\x02\0\0\0"
+            name (5): "cpu1"
+    aliases:
+        name (8): "aliases"
+        AAPL,phandle (4): 0xb
+    memory:
+        AAPL,phandle (4): 0xc
+        device_type (7): "memory"
+        name (7): "memory"
+        reg (8): 0
+    pram:
+        AAPL,phandle (4): 0xd
+        device_type (5): "pram"
+        name (5): "pram"
+        reg (16): ""
+    vram:
+        AAPL,phandle (4): 0xe
+        device_type (5): "vram"
+        name (5): "vram"
+        reg (16): ""
+    arm-io:
+        compatible (13): "arm-io,t8010"
+        clock-frequencies (384): ""
+        acc-impl-tunables (48): 00 84 00 00 00 00 00 00 00 00 ff ff 0f 00 00 80 00 00 00 10 08 00 00 00 40 84 00 00 00 00 00 00 ff ff 00 00 00 00 00 00 00 10 00 00 00 00 00 00
+        reg (64): 0x202f40000,10000; 0x202050000,1000; 0x202150000,1000; 0x20f100000,4000
+        chip-revision (4): 0
+        soc-generation (3): "H9"
+        iommu-present (0)
+        AAPL,phandle (4): 0xf
+        device_type (9): "t8010-io"
+        #size-cells (4): 2
+        ranges (48): 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 02 00 00 00
+        #address-cells (4): 2
+        usbphy-frequency (4): 0
+        function-clock_gate (8): "\x12\0\0\0Gklc"
+        function-power_gate (8): "\x12\0\0\0Grwp"
+        name (7): "arm-io"
+        aic:
+            #interrupt-cells (4): 1
+            #main-cpus (4): 2
+            compatible (6): "aic,1"
+            interrupt-controller (7): "master"
+            aic-version (4): 0x2
+            #shared-timestamps (4): 16
+            reg (32): 0xe100000,8000; 0xe108000,1000
+            AAPL,phandle (4): 0x10
+            device_type (21): "interrupt-controller"
+            #address-cells (4): 0
+            ipid-mask (40): 0f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+            target-destinations (16): 53 00 00 00 01 00 00 00 56 00 00 00 02 00 00 00
+            name (4): "aic"
+        aic-timebase:
+            AAPL,phandle (4): 0x11
+            device_type (6): "timer"
+            name (13): "aic-timebase"
+            reg (16): 0xe108000,1000
+        pmgr:
+            function-pmp_control (8): ",\0\0\0CPMP"
+            clocks (264): "\x19\0\x01\x01\0\0\0\0FAST_AF\0\0\0\0\0\0\0\0\0\x1a\0\x01\x02\0\0\0\0SLOW_AF\0\0\0\0\0\0\0\0\0\x1b\0\x01\x03\0\0\0\0SBR\0\0\0\0\0\0\0\0\0\0\0\0\0\x1c\0\x01\x04\0\0\0\0ISP_SENSOR0_REF\0\x1d\0\x01\x05\0\0\0\0ISP_SENSOR1_REF\0\x1e\0\x01\x06\0\0\0\0ISP_SENSOR2_REF\0\x1f\0\x01\x07\0\0\0\0VENC\0\0\0\0\0\0\0\0\0\0\0\0 \0\x01\x08\0\0\0\0PMP\0\0\0\0\0\0\0\0\0\0\0\0\0\x06\x01\x01\x09\0\0\0\0LPO\0\0\0\0\0\0\0\0\0\0\0\0\0\x07\x01\x01\x0a\0\0\0\0AOP\0\0\0\0\0\0\0\0\0\0\0\0\0\x08\x01\x01\x0b\0\0\0\0DETECT\0\0\0\0\0\0\0\0\0\0"
+            power-domains (264): "\0!\0\x01\0\0\0\0MCC\0\0\0\0\0\0\0\0\0\0\0\0\0\0\"\0\x02\0\0\0\0DCS01\0\0\0\0\0\0\0\0\0\0\0\0#\0\x03\0\0\0\0DCS23\0\0\0\0\0\0\0\0\0\0\0\0$\0\x04\0\0\0\0ACS\0\0\0\0\0\0\0\0\0\0\0\0\0\0%\0\x05\0\0\0\0PMP\0\0\0\0\0\0\0\0\0\0\0\0\0\0&\0\x06\0\0\0\0PMS_SRAM\0\0\0\0\0\0\0\0\0'\0\x07\0\0\0\0GFX\0\0\0\0\0\0\0\0\0\0\0\0\0\0(\0\x08\0\0\0\0SEP\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x09\x01\x09\0\0\0\0AOP_CPU\0\0\0\0\0\0\0\0\0\0\x0a\x01\x0a\0\0\0\0AOP_FILTER\0\0\0\0\0\0\0\x0b\x01\x0b\0\0\0\0AOP_DETECT\0\0\0\0\0\0"
+            voltage-states0 (16): 0x0,1
+            ecore-static-vvfc (24): 00 00 8c 01 00 00 72 00 00 00 dc 02 00 00 e9 00 00 00 44 04 00 00 83 01
+            ps-regs (96): 0x8000000000001,e07; 0x80000,8010000000000; 0xfffff7ff,ffffffbf00080200; 0x8030000000000,3d; 0x100080400,8400000000000; 0x3f,f00088000
+            ap-wake-sources (180): "\x0d\0\0\0AOP.PMU\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x0f\0\0\0AOP.CPUWakeupAP\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x1b\0\0\0AOP.OutboxNotEmpty\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x1c\0\0\0AOP.APWatchdog\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x1d\0\0\0AOP.APWakeupTime\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            cpu-power-gate-latency-us (4): 0xc350
+            dvd-period-us (4): 0x1f40
+            cpu-tvm (4): 0x1
+            function-mcc_ctrl (8): "\x18\0\0\0$meM"
+            clock-gates (8): 0x7900000078
+            bridge-counter-version (4): 0x1
+            idle-hack (4): 0x1
+            nominal-performance1 (4): 0
+            dvd-threshold-us (4): 0x3e8
+            bridge-reg-index (4): 0xa
+            e-overlap-low (4): 0x3
+            cpu-apsc (4): 0x1
+            dvtm-hack (4): 0x1
+            dvmr (4): 0x1
+            mcx-fast-cpu-frequency (4): 0x798
+            dvd-factor (4): 0x10000
+            name (5): "pmgr"
+            optional-bridge-mask (4): 0x2000
+            lost-perf-thresholds (16): 99 59 00 00 66 a6 00 00 99 d9 00 00 33 f3 00 00
+            bridge-counters (56): 00 00 00 00 00 80 00 00 00 80 00 00 00 80 00 00 00 40 00 00 00 80 00 00 00 00 00 00 00 80 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 80 00 00
+            p-overlap-high (4): 0x2
+            l2c-acc-sleep (4): 0xffffffff
+            perf-regs (32): 0xb400000000000,55; 0xb400000000001,10000000f
+            soc-tvm (4): 0x1
+            total-rails-leakage (4): 0
+            aes-domain-hack (4): 0x1
+            clock-ids (8): 0x10500000101
+            events (528): "\0\0\0\x01\0\0)\0SOC_TVM_TEMP_0\0\0\0\0\0\x02\0\0*\0SOC_TVM_TEMP_1\0\0\0\0\0\x03\0\0+\0SOC_TVM_TEMP_2\0\0\0\0\0\x04\0\0,\0SOC_TVM_TEMP_3\0\0\0\0\0\x05\0\0-\0GFX_TVM_TEMP_0\0\0\0\0\0\x06\0\0.\0GFX_TVM_TEMP_1\0\0\0\0\0\x07\0\0/\0GFX_TVM_TEMP_2\0\0\0\0\0\x08\0\00\0GFX_TVM_TEMP_3\0\0\0\0\x01\x092\01\0SOCHOT0\0\0\0\0\0\0\0\0\0\0\0\x01\x0a4\03\0SOCHOT1\0\0\0\0\0\0\0\0\0\0\0\x01\x0bP\0O\0SOC_V0_MEM_P1\0\0\0\0\0\x01\x0cJ\0I\0SOC_V0_MEM_P0\0\0\0\0\0\x01\x0dL\0K\0SOC_V1_MEM_P1\0\0\0\0\0\x01\x0eN\0M\0SOC_V1_MEM_P0\0\0\0\0\0\0\x0f\0\0\x0e\x01S2R_AOP\0\0\0\0\0\0\0\0\0\0\0\0\x10\0\0\x0c\x01AOP_DDR\0\0\0\0\0\0\0\0\0\0\0\0\x11\0\0\x0d\x01AWAKE\0\0\0\0\0\0\0\0\0\0\0\0\0\x02\x12\0\0\0\0DPE0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x02\x13\0\0\x05\0CPU0_E\0\0\0\0\0\0\0\0\0\0\0\0\x02\x14\0\0\x03\0CPU0_P\0\0\0\0\0\0\0\0\0\0\0\0\x02\x15\0\0\x06\0CPU1_E\0\0\0\0\0\0\0\0\0\0\0\0\x02\x16\0\0\x04\0CPU1_P\0\0\0\0\0\0\0\0\0\0"
+            compatible (12): "pmgr1,t8010"
+            device_type (5): "pmgr"
+            boost-performance1 (4): 0
+            l2c-wpd (4): 0
+            #bridges (4): 14
+            perf-domains (112): "\0\x04\0\x01\0\0\0\0,\x01\0\0SOC\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\x01\x01\x02\0\0\0\0\0\0\0\0CPU\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x04\0\x03\0\0\0\0,\x01\0\0MEM\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x04\0\0\0\0\0\0\0\0AES\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            noise-hack (4): 0x1
+            voltage-states1 (128): ""
+            pmp (4): 0
+            pcore-static-vvfc (56): 00 00 f4 02 00 00 6e 05 00 00 20 04 00 00 93 08 00 00 4c 05 00 00 2e 0e 00 00 6c 06 00 00 8c 14 00 00 98 07 00 00 d7 1e 00 00 c4 08 00 00 9e 2d 00 00 24 09 00 00 d2 30
+            devices (5568): "\0\0\x02\x01\0\0\0\0\0\0\0\x01\x05\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0CPU0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x02\x02\0\0\0\0\0\0\x01\x01\x06\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0CPU1\0\0\0\0\0\0\0\0\0\0\0\0!\0\0\x03\0\0\0\0\x04\0\x0c\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SIO_BUSIF\0\0\0\0\0\0\0\x01\0\0\x04\x03\0\0\0\0\0\x0d\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SIO_P\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x06\0\0\0\0\0\0\x0d\x03\x01\0\0\0\x83\xc0\x01\0\0@\0\0\x01\0\0\0\x0a\0\0\0USB\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x08\x06\0\0\0\0\0\x0e\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0USBCTRL\0\0\0\0\0\0\0\0\0\0\0\0\x0a\x08\0\0\0\0\0\x0f\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0USB2HOST0\0\0\0\0\0\0\0\0\0\0\x0c\x08\0\0\0\0\0\x11\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0USB2HOST1\0\0\0\0\0\0\0 \0\0\x10\0\0\0\0\x0d\0\x15\x03\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0\0\x06\0\0\0RTMUX\0\0\0\0\0\0\0\0\0\0\0 \0\0\x12\0\0\0\0\x0f\0\x1b\x03\x01\0\0\0\\\x8f\x1d\0SC\x01\0\x01\0\0\0\0\0\0\0MEDIA\0\0\0\0\0\0\0\0\0\0\0\x02\0\0\x18\x10\0\0\0\0\0\x1a\x03\x04\0\0\0f\xe6\xc9\x013\xb3\x0f\0\x01\0\0\0\x05\0\0\0ISP_SYS\0\0\0\0\0\0\0\0\0\"\0\0\x19\x12\0\0\0\x11\0\x1d\x03\x01\0\0\0\x8f\xc2D\03\x93\x02\0\x01\0\0\0\x01\0\0\0MSR\0\0\0\0\0\0\0\0\0\0\0\0\0\"\0\0\x1a\x12\0\0\0\x10\0\x1c\x03\x01\0\0\0\xc2u\x0b\0SC\x01\0\x01\0\0\0\x02\0\0\0JPG\0\0\0\0\0\0\0\0\0\0\0\0\0\"\0\0\x1b\x12\0\0\0\x15\0\x02\x04\x02\0\0\03\xb3\xcc\x01\xeb\x919\0\x01\0\0\0\x03\0\0\0VENC_SYS\0\0\0\0\0\0\0\0 \0\0\x1c\x10\0\0\0\x0e\0\x16\x03\x01\0\0\0\x0a\xd7\x16\0\x99\xf9\x01\0\0\0\0\0\0\0\0\0DISP0_FE\0\0\0\0\0\0\0\0\0\0\0\x1d\x1c\0\0\0\0\0\x17\x03\x01\0\0\0f\xa6\x19\0\x99\x19\x01\0\x01\0\0\0\x07\0\0\0DISP0_BE\0\0\0\0\0\0\0\0\x10\0\0 \x18\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_DART\0\0\0\0\0\0\0\0\x10\0\0!\x19\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0MSR_DART\0\0\0\0\0\0\0\0\x10\0\0$\x1b\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0VENC_DART\0\0\0\0\0\0\0\x10\0\0%\x1d\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DISP0_DART\0\0\0\0\0\0!\0\0*\0\0\0\0\0\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0AOP\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0+\0\0\0\0\0\0\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DEBUG\0\0\0\0\0\0\0\0\0\0\0\x01\0\0,\0\0\0\0\0\0\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0AOP_GPIO\0\0\0\0\0\0\0\0!\0\0-\0\0\0\0\x01\x01\x09\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0AOP_CPU\0\0\0\0\0\0\0\0\0!\0\0.\0\0\0\0\x02\x01\x0a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0AOP_FILTER\0\0\0\0\0\0!\0\0/\0\0\0\0\x03\x01\x0b\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0AOP_BUSIF\0\0\0\0\0\0\0\0\0\x020\0\0\0\0\0\0\x08\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0CPM\0\0\0\0\0\0\0\0\0\0\0\0\0!\0\01\0\0\0\0\0\0\0\x02\x01\0\0\0\xf9\x9e\0\0\0`\x02\0\x01\0\0\0\x0d\0\0\0SBR\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\02\0\0\0\0\0\0\x01\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0AIC\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\03\0\0\0\0\0\0\x02\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DWI\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\04\0\0\0\0\0\0\x03\x02\x07\0\0\0\0\0\x18\0\0\0\0\0\0\0\0\0\0\0\0\0GPIO\0\0\0\0\0\0\0\0\0\0\0\0!\0\05\0\0\0\0\x01\0\x04\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0PMS\0\0\0\0\0\0\0\0\0\0\0\0\0)\0\06\0\0\0\0\x12\0\x1e\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0PMP\0\0\0\0\0\0\0\0\0\0\0\0\0 \0\07\0\0\0\0\x13\0\x1f\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0PMS_SRAM\0\0\0\0\0\0\0\0 \0\08\0\0\0\0\x16\0\x03\x04\x01\0\0\0\0\xc0O\03\xf3\x01\0\x01\0\0\0\x0b\0\0\0PCIE\0\0\0\0\0\0\0\0\0\0\0\0\0\0\09\0\0\0\0\0\0\x04\x04\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0PCIE_AUX\0\0\0\0\0\0\0\0 \0\0:\0\0\0\0\x03\0\x09\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0PCIE_REF\0\0\0\0\0\0\0\0\0\0\0;\0\0\0\0\0\0\x0a\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SOCUVD\0\0\0\0\0\0\0\0\0\0\0\0\0@\x04\0\0\0\0\0\x0f\x02\x01\0\0\0\0\0\x05\0\0\0\0\0\0\0\0\0\0\0\0\0MCA0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0A\x04\0\0\0\0\0\x10\x02\x01\0\0\0\0\0\x05\0\0\0\0\0\0\0\0\0\0\0\0\0MCA1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0B\x04\0\0\0\0\0\x11\x02\x01\0\0\0\0\0\x05\0\0\0\0\0\0\0\0\0\0\0\0\0MCA2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0C\x04\0\0\0\0\0\x12\x02\x01\0\0\0\0\0\x05\0\0\0\0\0\0\0\0\0\0\0\0\0MCA3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\x04\0\0\0\0\0\x13\x02\x01\0\0\0\0\0\x05\0\0\0\0\0\0\0\0\0\0\0\0\0MCA4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0E\x04\0\0\0\0\0\x14\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0PWM0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0F\x04\0\0\0\0\0\x15\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0I2C0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0G\x04\0\0\0\0\0\x16\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0I2C1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0H\x04\0\0\0\0\0\x17\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0I2C2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0I\x04\0\0\0\0\0\x18\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0I2C3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0J\x04\0\0\0\0\0\x19\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SPI0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0K\x04\0\0\0\0\0\x1a\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SPI1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0L\x04\0\0\0\0\0\x1b\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SPI2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0M\x04\0\0\0\0\0\x1c\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SPI3\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0P\x04\0\0\0\0\0\x1d\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0Q\x04\0\0\0\0\0\x1e\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART1\0\0\0\0\0\0\0\0\0\0\0\x01\0\0R\x04\0\0\0\0\0\x1f\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART2\0\0\0\0\0\0\0\0\0\0\0\x01\0\0S\x04\0\0\0\0\0\0\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART3\0\0\0\0\0\0\0\0\0\0\0\x01\0\0T\x04\0\0\0\0\0\x01\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART4\0\0\0\0\0\0\0\0\0\0\0\x01\0\0U\x04\0\0\0\0\0\x02\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART5\0\0\0\0\0\0\0\0\0\0\0\x01\0\0V\x04\0\0\0\0\0\x03\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART6\0\0\0\0\0\0\0\0\0\0\0\x01\0\0W\x04\0\0\0\0\0\x04\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART7\0\0\0\0\0\0\0\0\0\0\0\x01\0\0X\x04\0\0\0\0\0\x05\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0UART8\0\0\0\0\0\0\0\0\0\0\0\x10\x01\x04Y\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0AES0-CLK\0\0\0\0\0\0\0\0!\0\0Z\x04\0\0\0\x05\0\x0e\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SIO\0\0\0\0\0\0\0\0\0\0\0\0\0 \0\0[\x0c\0\0\0\x02\0\x05\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0HSIC0_PHY\0\0\0\0\0\0\0\0\0\0\\\0\0\0\0\0\0\x06\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_SENS0\0\0\0\0\0\0\0\0\0\0]\0\0\0\0\0\0\x07\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_SENS1\0\0\0\0\0\0\0\0\0\0^\0\0\0\0\0\0\x08\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_SENS2\0\0\0\0\0\0\0\0\0\0_\x04\0\0\0\0\0\x07\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0HFD0\0\0\0\0\0\0\0\0\0\0\0\0!\0\0`\0\0\0\0\x06\0\x08\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0MCC\0\0\0\0\0\0\0\0\0\0\0\0\0!\0\0a\0\0\0\0\x07\0\x09\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DCS0\0\0\0\0\0\0\0\0\0\0\0\0!\0\0b\0\0\0\0\x08\0\x0a\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DCS1\0\0\0\0\0\0\0\0\0\0\0\0!\0\0c\0\0\0\0\x09\0\x0b\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DCS2\0\0\0\0\0\0\0\0\0\0\0\0!\0\0d\0\0\0\0\x0a\0\x0c\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DCS3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0e\x0a\0\0\0\0\0\x10\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0USB2HOST0_OHCI\0\0\0\0\0i\x08\0\0\0\0\0\x12\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0USBOTG\0\0\0\0\0\0\0\0\0\0!\0\0j\0\0\0\0\x0b\0\x13\x03\x01\0\0\0\x8b\x0c\x09\03s\0\0\0\0\0\0\0\0\0\0SMX\0\0\0\0\0\0\0\0\0\0\0\0\0!\0\0k\0\0\0\0\x0c\0\x14\x03\x01\0\0\0\xf5(\x0b\03\xb3\x01\0\0\0\0\0\0\0\0\0SF\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x10\0\0m\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0CPU-BUSY\0\0\0\0\0\0\0\0\x10\0\x02n\0\0\0\0\0\0\0\0\x08\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0CPU\0\0\0\0\0\0\0\0\0\0\0\0\0\x11\0\0p\x1d\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DISP0-V\0\0\0\0\0\0\0\0\0\x01\0\0q\x1d\0\0\0\0\0\x18\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0MIPI_DSI\0\0\0\0\0\0\0\0\x01\0\0r\x1d\0\0\0\0\0\x19\x03\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DP\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x10\0\0s\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DISP-DCS-PG\0\0\0\0\0\x10\0\0t\0\0\0\0\0\0\0\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DISP-FB-ACTIVE\0\0\x10\0\0u\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DISP-CPM-PG\0\0\0\0\0\x10\0\0v\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DISP-MIE-DPB\0\0\0\0\"\0\0w\x12\0\0\0\x14\0\0\x04\x03\0\0\0\x85k\x15\0\0\xc0\x04\0\x02\0\0\0\x04\x0c\0\0VDEC0\0\0\0\0\0\0\0\0\0\0\0P\x01\x01x\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0SOC-FAST\0\0\0\0\0\0\0\0P\x01\x03y\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0MEM-FAST\0\0\0\0\0\0\0\0 \0\0|\0\0\0\0\x17\0\x05\x04\0\0\0\0\0\0\0\0\0\0\0\0\x02\0\0\0\x08\x09\0\0GFX\0\0\0\0\0\0\0\0\0\0\0\0\0)\0\0\x7f\0\0\0\0\x18\0\0\x05\x01\0\0\0\x99\x994\0\xcc\x8c\x04\0\0\0\0\0\0\0\0\0SEP\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x80\x18\0\0\0\0\0\0\x06\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_RSTS0\0\0\0\0\0\0\0\0\0\0\x81\x18\0\0\0\0\0\x01\x06\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_RSTS1\0\0\0\0\0\0\0\0\0\0\x82\x18\0\0\0\0\0\x02\x06\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_VIS\0\0\0\0\0\0\0\0\0\0\0\0\x83\x18\0\0\0\0\0\x03\x06\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_BE\0\0\0\0\0\0\0\0\0\0\0\0\0\x84\x18\0\0\0\0\0\x04\x06\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP_PEARL\0\0\0\0\0\0\0\0\0\0\x85\x18\0\0\0\0\0\x05\x06\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0DPRX\0\0\0\0\0\0\0\0\0\0\0\0\x10\x01\x01\x86\0\0\0\0\0\0\0\0\x04\0\0\03\xb3\xd3\0\0\0\0\0\0\0\0\0\0\0\0\0ISP-SOC-FAST\0\0\0\0\x10\x01\x03\x87\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ISP-MEM-FAST\0\0\0\0\x10\x01\x01\x88\0\0\0\0\0\0\0\0\x02\0\0\0f\xe6\xd4\0\0\0\0\0\0\0\0\0\0\0\0\0VENC-SOC-FAST\0\0\0\x10\x01\x03\x89\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0VENC-MEM-FAST\0\0\0\x10\x01\x01\x8a\0\0\0\0\0\0\0\0\x03\0\0\0\xa30\x0c\0\0\0\0\0\0\0\0\0\0\0\0\0VDEC-SOC-FAST\0\0\0\x10\x01\x01\x8c\0\0\0\0\0\0\0\0\x01\0\0\0\x0eM\x05\0\0\0\0\0\0\0\0\0\0\0\0\0JPEG-SOC-FAST\0\0\0\x10\0\0\x8d\x1b\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0VENC_SYS-V\0\0\0\0\0\0\x10\0\0\x90\x1a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0JPG0\0\0\0\0\0\0\0\0\0\0\0\0\x10\0\0\x91\x1a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0JPG1\0\0\0\0\0\0\0\0\0\0\0\0\x10\0\0\x92\x1a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0JPG0_DART\0\0\0\0\0\0\0\x10\0\0\x93\x1a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0JPG1_DART\0\0\0\0\0\0\0\x10\0\0\x94|\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0GFX-SGX\0\0\0\0\0\0\0\0\0\x10\0\0\x95|\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0GFX-KF\0\0\0\0\0\0\0\0\0\0\x10\0\0\x96\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0GFX-BUSY\0\0\0\0\0\0\0\0\0\0\0\x97\x1b\0\0\0\0\0\0\x07\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0VENC_PIPE4\0\0\0\0\0\0\0\0\0\x98\x1b\0\0\0\0\0\x01\x07\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0VENC_PIPE5\0\0\0\0\0\0\0\0\0\x99\0\0\0\0\0\0\x02\x07\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0VENC_ME0\0\0\0\0\0\0\0\0\0\0\0\x9a\0\0\0\0\0\0\x03\x07\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0VENC_ME1\0\0\0\0\0\0\0\0\x10\0\0\x9b\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0USB-AUDIO-DUMMY\0"
+            clpc (4): 0x1
+            reg (384): 0xe000000,100000; 0x10200000,100000; 0x2f20000,11000; 0x10004000,1000; 0x2f40000,10000; 0x2f50000,1000; 0x2f80000,1000; 0x2050000,a000; 0x2150000,a000; 0xe308000,1000; 0x7000000,1000; 0x7800000,9000; 0x7a00000,9000; 0x7c00000,9000; 0x8000000,5000; 0x5b00000,11000; 0x6000000,1000; 0x6100000,9000; 0x1f00000,9000; 0x1f80000,1000; 0xcb00000,1000; 0x600010000,5000; 0x8080000,1000; 0xf000000,9000
+            AAPL,phandle (4): 0x12
+            gfx-tvm (4): 0x1
+            energy-counters (400): "\0\0\0\x01\0\0\0\x10Rest of SoC Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x02\0\0\0\x10VENC Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x03\0\0\0\x10VDEC Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x04\0\0\0\x10ISP Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x03\x05\0\0\0\x11CPU0 Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x03\x06\0\0\0\x11CPU1 Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x07\0\0\0\x10SoC Base Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x04\x08\0\0\0\x11CPM Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x02\x10\0\0\0\0SoC Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x02\x11\0\0\0\0CPU Energy\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            soc-tuner:
+                cpm-power-gating (4): 0x1
+                AAPL,phandle (4): 0x13
+                #device-sets (4): 8
+                function-mcc_ctrl (8): "\x18\0\0\0$meM"
+                function-dispidle_ctrl (8): "`\0\0\0iPDA"
+                device-set-7 (4): 0x9b
+                name (10): "soc-tuner"
+                devices (8): 0x300000006b
+                device-set-6 (20): 40 00 00 00 41 00 00 00 42 00 00 00 43 00 00 00 44 00 00 00
+                device-set-5 (4): 0x75
+                compatible (16): "soc-tuner,t8010"
+                device-set-4 (4): 0x73
+                mcc-configs (16): 01 00 00 00 02 00 00 00 03 00 00 00 04 00 00 00
+                device-set-3 (4): 0x1c
+                device-set-2 (4): 0x6d
+                soc-tuning (4): 0x1
+                device-set-1 (4): 0x18
+                device_type (10): "soc-tuner"
+                device-set-0 (16): 12 00 00 00 18 00 00 00 74 00 00 00 96 00 00 00
+                fb-caching (4): 0x1
+                mcc-power-gating (4): 0x1
+            clpc:
+                dynamic-cpu-control (4): 0x1
+                cpu-ldst-density-threshold-ipc (4): 0xb333
+                cpu-read-threshold-gbps (4): 0x70000
+                dynamic-cores-control (4): 0
+                serialization-target (4): 0xfd70
+                scheduling-latency-ki-up (4): 0x51e
+                mem-throughput-memory-ki-up (4): 0x1999
+                frame-trend-cpu-cap (4): 0x4a3d
+                frame-rate-trend-ki-up (4): 0xf5c
+                scheduling-latency-target (4): 0x50000
+                qos-weight-tier1 (4): 0x28f
+                frame-rate-trend-ki-down-fast (4): 0x10000
+                frame-rate-filter-time-constant (4): 0x4ccc
+                compatible (11): "clpc,t8010"
+                external-droop-util-ki-down (4): 0x10000
+                cpu-fast-threshold-mhz (4): 0x4b00000
+                soc-throughput-cpu-ki-down (4): 0x147
+                present-utilization-offset-us (4): 0
+                mem-throughput-cpu-ki-up (4): 0x10000
+                present-utilization-ki-down (4): 0xf5c
+                p-e-perf-ratio (4): 0x20000
+                soc-throughput-cpu-ki-up (4): 0x10000
+                qos-weight-tier2 (4): 0x13333
+                scheduling-latency-ki-down (4): 0x83
+                real-time-utilization-ki-up (4): 0x10000
+                soc-throughput-memory-threshold (4): 0x3e80000
+                external-droop-util-ce-floor (4): 0x4ccc
+                frame-rate-trend-holdoff (4): 0x14
+                soc-throughput-fabric-ki-up (4): 0x1999
+                cpu-device-index (4): 0
+                external-droop-util-target (4): 0x28f
+                soc-throughput-fabric-threshold (4): 0xe0000
+                cpu-utilization-ki-up-fast (4): 0x640000
+                ui-cf-effort-limit (4): 0x10000
+                soc-stall-target (4): 0xb333
+                mem-throughput-gpu-threshold (4): 0x28000
+                io-rate-max-control-effort (4): 0xb333
+                present-utilization-ki-up (4): 0x2e14
+                sochot0-event-index (4): 0
+                ui-cf-boost-time-us (4): 0x411b
+                cpu-fast-utilization-threshold (4): 0x8000
+                serialization-ki-up (4): 0x140000
+                soc-throughput-gpu-ki-down (4): 0x147
+                qos-weight-tier3 (4): 0x20000
+                soc-throughput-fabric-ki-down (4): 0x147
+                cpu-power-target (4): 0xff0000
+                ui-running-threshold-fps (4): 0x190000
+                cpu-efficiency-target (4): 0x9999
+                filter-time-constant-up (4): 0x8000
+                soc-throughput-memory-ki-down (4): 0x147
+                ui-cf-min-deadline-us (4): 0x411b
+                io-rate-read-ki-down (4): 0x41
+                cpu-efficiency-ki-up (4): 0x3333
+                external-droop-util-control (4): 0x1
+                ui-volatile-ki-down (4): 0xccc
+                cpmu-reg-unlock (4): 0
+                qos-weight-tier4 (4): 0
+                mem-throughput-cpu-threshold (4): 0x40000
+                soc-stall-ki-up (4): 0x8000
+                events (4): 0x9
+                io-rate-write-ki-up (4): 0x6
+                energy-counters (8): 0x600000005
+                ui-cf-min-allowed-util (4): 0xc000
+                qos-min-performance (4): 0x4ccc
+                frame-swap-timeout-ms (4): 0xe6
+                external-droop-util-ki-up (4): 0x27100000
+                mem-stall-ki-down (4): 0xccc
+                soc-stall-ki-down (4): 0xccc
+                soc-fast-device-index (4): 0x4
+                cpu-utilization-target (4): 0xfd70
+                ui-cf-history-us (4): 0x30d40
+                real-time-utilization-ki-down (4): 0x1999
+                qos-weight-tier5 (4): 0
+                cpu-utilization-ki-down-nominal (4): 0xccc
+                sched-synchronous-perf-changes (4): 0
+                function-amcperfcounters (8): "\x18\0\0\0PCMA"
+                cpu-power-limiting (4): 0x1
+                mem-throughput-fabric-threshold (4): 0x3e80000
+                cpu-utilization-ki-up-slow (4): 0x40000
+                cpu-power-ki-down (4): 0xccc
+                cpu-utilization-ki-down-fast (4): 0xccc
+                frame-rate-trend-target (4): 0x6666
+                ui-establishing-interval-ms (4): 0x1388
+                io-rate-write-ki-down (4): 0x20
+                dynamic-mem-control (4): 0x1
+                qos-weight-tier6 (4): 0
+                core-starvation-time-us (4): 0x4e20
+                cpu-efficiency-ki-down (4): 0x28f
+                io-rate-write-target (4): 0x190000
+                present-idle-ki-down (4): 0x2666
+                soc-throughput-memory-ki-up (4): 0x1999
+                ui-jump-threshold-fps (4): 0x1e0000
+                ui-volatile-threshold (4): 0x8000
+                name (5): "clpc"
+                io-rate-read-ki-up (4): 0xd
+                device_type (5): "clpc"
+                qos-weight-tier7 (4): 0
+                real-time-utilization-target (4): 0x8000
+                cpu-power-ki-up (4): 0xccc
+                ui-filtered-jump-threshold-fps (4): 0x140000
+                mem-throughput-gpu-ki-up (4): 0x1999
+                function-set_droop_util_ce (8): "\xa2\0\0\0CUDV"
+                sampling-interval-ms (4): 0xa
+                cpu-efficiency-min-limit (4): 0xc000
+                soc-throughput-gpu-ki-up (4): 0x1999
+                cpu-utilization-ki-up-nominal (4): 0xa0000
+                devices (24): "n\0\0\0\x01\0\0\0\x02\0\0\0m\0\0\0x\0\0\0y\0\0\0"
+                ui-cf-utilization-target (4): 0xcccc
+                cpu-busy-device-index (4): 0x3
+                soc-throughput-gpu-threshold (4): 0x28000
+                filter-time-constant-down (4): 0x4ccc
+                mem-throughput-memory-threshold (4): 0x90000
+                cpu-neon-density-threshold-ipc (4): 0x8000
+                io-rate-read-target (4): 0x640000
+                ui-cf-timeout-us (4): 0x1046b
+                cpu-utilization-ki-down-slow (4): 0x83
+                dynamic-soc-control (4): 0x1
+                ui-sa-secondary-timeout-ms (4): 0x1e0
+                reg (64): 0x202010000,10000; 0x202030000,10000; 0x202110000,10000; 0x202130000,10000
+                serialization-ki-down (4): 0xccc
+                framebuffer-idle-us (4): 0x5208
+                ui-volatile-ki-up (4): 0x51e
+                mem-throughput-cpu-ki-down (4): 0x147
+                mem-throughput-fabric-ki-down (4): 0x147
+                mem-f0-fast-device-index (4): 0x5
+                present-min-control-effort (4): 0
+                frame-rate-trend-ki-down-slow (4): 0x51e
+                cpu-int-density-threshold-ipc (4): 0x13333
+                present-utilization-target (4): 0x4000
+                ui-late-frame-deadline (4): 0x18000
+                ui-minimum-reset-interval-ms (4): 0xc8
+                mem-stall-target (4): 0x4ccc
+                mem-throughput-fabric-ki-up (4): 0x1999
+                soc-throughput-cpu-threshold (4): 0x40000
+                mem-throughput-memory-ki-down (4): 0x147
+                sim-single-core-ce-floor (4): 0x19db
+                AAPL,phandle (4): 0x14
+                mem-stall-ki-up (4): 0x8000
+                qos-weight-tier0 (4): 0
+                ui-cf-ki-down (4): 0x3333
+                cpu-busy-threshold-mhz (4): 0x1f40000
+                cpu-write-threshold-gbps (4): 0x10000
+                mem-throughput-gpu-ki-down (4): 0x147
+        nco:
+            AAPL,phandle (4): 0x15
+            compatible (23): "nco,t8010\0nco,s5l8960x\0"
+            pmgr-nco-page-size (4): 0x4000
+            clock-ids (16): 0d 01 00 00 0e 01 00 00 0f 01 00 00 10 01 00 00
+            device_type (4): "nco"
+            name (4): "nco"
+            reg (16): 0xe044000,14000
+        wdt:
+            name (4): "wdt"
+            compatible (23): "wdt,t8010\0wdt,s5l8960x\0"
+            clock-ids (4): 0x4
+            interrupt-parent (4): 0x10
+            reg (32): 0x102b0000,4000; 0x102b8020,4
+            function-panic_notify (16): "\x17\0\0\0OIPG\xce\0\0\0\0\x01\0\0"
+            interrupts (4): 0x4
+            AAPL,phandle (4): 0x16
+            panic-save-flag-bit (4): 0
+            device_type (4): "wdt"
+            wdt-version (4): 0x1
+            function-panic_halt_helper (8): "\x18\0\0\0!meM"
+        gpio:
+            #interrupt-cells (4): 2
+            interrupt-controller (0)
+            compatible (25): "gpio,t8010\0gpio,s5l8960x\0"
+            interrupt-parent (4): 0x10
+            interrupts (28): "*\0\0\0+\0\0\0,\0\0\0-\0\0\0.\0\0\0/\0\0\00\0\0\0"
+            #gpio-int-groups (4): 7
+            reg (16): 0xf100000,100000
+            #gpio-pins (4): 208
+            AAPL,phandle (4): 0x17
+            device_type (21): "interrupt-controller"
+            #address-cells (4): 0
+            name (5): "gpio"
+        mcc:
+            AAPL,phandle (4): 0x18
+            compatible (10): "mcc,t8010"
+            perf-state-energy-consts (80): 33 b3 21 00 ae c7 00 00 00 80 09 00 99 19 02 00 66 e6 0a 00 00 00 ba 00 00 00 b6 00 99 99 0d 00 00 00 01 00 33 33 03 00 33 33 29 00 ae c7 00 00 00 00 11 00 99 19 02 00 66 66 12 00 00 00 18 01 00 00 15 01 00 00 15 00 00 00 01 00 66 66 06 00
+            dcs_num_channels (4): 0x4
+            dramcfg-data (12): 33 00 00 00 ff 00 fe ff d9 ff 47 09
+            perf-state-freqs (8): 0x3180000018c
+            config-data (200): 10 00 00 00 01 00 00 00 5f 09 00 00 01 00 00 00 0a 00 00 00 0a 00 00 00 e8 03 00 00 a0 86 01 00 64 00 00 00 01 00 00 00 08 00 00 00 01 00 00 00 5f 09 00 00 01 00 00 00 0a 00 00 00 0a 00 00 00 e8 03 00 00 a0 86 01 00 64 00 00 00 01 00 00 00 08 00 00 00 01 00 00 00 5f 09 00 00 01 00 00 00 0a 00 00 00 0a 00 00 00 e8 03 00 00 a0 86 01 00 64 00 00 00 01 00 00 00 10 00 00 00 01 00 00 00 5f 09 00 00 01 00 00 00 0a 00 00 00 0a 00 00 00 e8 03 00 00 a0 86 01 00 64 00 00 00 01 00 00 00 10 00 00 00 01 00 00 00 5f 09 00 00 01 00 00 00 0a 00 00 00 0a 00 00 00 e8 03 00 00 a0 86 01 00 64 00 00 00 01 00 00 00
+            dcs0-idle-perf-num (4): 0x7
+            device_type (4): "mcc"
+            name (4): "mcc"
+            reg (32): 0x0,300000; 0xe0b4000,1000
+        error-handler:
+            interrupt-parent (4): 0x10
+            compatible (20): "error-handler,t8010"
+            dram-channels (4): 0x4
+            interrupts (12): 34 00 00 00 25 00 00 00 77 00 00 00
+            reg (112): 0x0,1000; 0x200000,100000; 0xd00000,13000; 0xd20000,1000; 0xd90000,1000; 0xe20000,1000; 0xe90000,1000
+            name (14): "error-handler"
+            AAPL,phandle (4): 0x19
+        dwi:
+            dwi-version (4): 0x1
+            lockout-us (4): 0x5
+            compatible (20): "dwi,t8010\0dwi,s8000\0"
+            interrupt-parent (4): 0x10
+            interrupts (4): 0x5
+            clock-gates (4): 0x33
+            reg (16): 0xe200000,4000
+            AAPL,phandle (4): 0x1a
+            str-delay (4): 0x1f40
+            polarity-config (4): 0x1
+            device_type (4): "dwi"
+            nclk-div (4): 0x1
+            name (4): "dwi"
+        pwm:
+            interrupt-parent (4): 0x10
+            compatible (23): "pwm,t8010\0pwm,s5l8920x\0"
+            AAPL,phandle (4): 0x1b
+            interrupts (4): 0xec
+            clock-gates (4): 0x45
+            device_type (4): "pwm"
+            name (4): "pwm"
+            reg (16): 0xa118000,1000
+        aes:
+            interrupt-parent (4): 0x10
+            compatible (10): "aes,s8000"
+            reg (32): 0xa108000,4000; 0x102d0000,4000
+            interrupts (4): 0xed
+            AAPL,phandle (4): 0x1c
+            clock-gates (4): 0x59
+            device_type (4): "aes"
+            name (4): "aes"
+            aes-version (4): 0x2
+        aop:
+            auto-boot (0)
+            compatible (20): "iop,t8010\0iop,s8000\0"
+            clock-ids (0)
+            interrupt-parent (4): 0x10
+            reg (64): 0x10800000,1c000; 0x10e00000,a0000; 0x10000500,100; 0x10000408,8
+            interrupts (16): 92 00 00 00 91 00 00 00 94 00 00 00 93 00 00 00
+            clock-gates (0)
+            AAPL,phandle (4): 0x1d
+            iop-version (4): 0x1
+            device_type (4): "aop"
+            power-gates (0)
+            role (4): "AOP"
+            name (4): "aop"
+            iop-aop-nub:
+                AAPL,phandle (4): 0x1e
+                compatible (16): "iop-nub,rtbuddy"
+                firmware-name (9): "t8010aop"
+                aop-target (4): 0x4
+                watchdog-enable (0)
+                coredump-enable (4): 0x20
+                region-size (8): 0xa0000
+                region-base (8): 0x210e00000
+                has-baseband (0)
+                name (12): "iop-aop-nub"
+                accel:
+                    accel-sensitivity-calibration (12): "syscfg/ASCl"
+                    AAPL,phandle (4): 0x1f
+                    accel-range-sensitivity-cal (12): "syscfg/ARSC"
+                    accel-orientation (12): "syscfg/ARot"
+                    device-usage (4): 0x3
+                    accel-interrupt-calibration (12): "syscfg/AICl"
+                    low-temp-accel-offset (12): "syscfg/LTAO"
+                    device_type (6): "accel"
+                    name (6): "accel"
+                    device-usage-page (4): 0xff00
+                gyro:
+                    device_type (5): "gyro"
+                    name (5): "gyro"
+                    gyro-range-sensitivity-cal (12): "syscfg/GRSC"
+                    gyro-sensitivity-calibration (12): "syscfg/GSCl"
+                    device-usage (4): 0x9
+                    function-force_pwm (16): "\x17\0\0\0OIPG\xa2\0\0\0\0\x01\0\0"
+                    AAPL,phandle (4): 0x20
+                    gyro-orientation (12): "syscfg/GRot"
+                    gyro-interrupt-calibration (12): "syscfg/GICl"
+                    gyro-temp-table (12): "syscfg/GYTT"
+                    device-usage-page (4): 0xff00
+                compass:
+                    name (8): "compass"
+                    AAPL,phandle (4): 0x21
+                    device-usage (4): 0xa
+                    compass-orientation (16): 02 00 00 00 01 00 00 00 00 01 00 00 00 00 01 00
+                    compass-calibration (12): "syscfg/CPAS"
+                    device_type (8): "compass"
+                    device-usage-page (4): 0xff00
+                pressure:
+                    name (9): "pressure"
+                    AAPL,phandle (4): 0x22
+                    device-usage (4): 0x31
+                    device_type (9): "pressure"
+                    pressure-offset-calibration (12): "syscfg/SPPO"
+                    device-usage-page (4): 0x14
+                spherecontrol:
+                    AAPL,phandle (4): 0x23
+                    device_type (14): "spherecontrol"
+                    name (14): "spherecontrol"
+                    isp-aop-motion-config (16): 04 80 80 10 02 00 00 00 00 00 00 80 3f 00 00 00
+                prox:
+                    AAPL,phandle (4): 0x24
+                    device-usage (4): 0x8
+                    function-saca (12): "\xab\0\0\0ACASxorp"
+                    prox-calibration (12): "syscfg/PxCl"
+                    device_type (5): "prox"
+                    name (5): "prox"
+                    device-usage-page (4): 0xff00
+                SPUApp:
+                    AAPL,phandle (4): 0x25
+                    spkamp-config_arc (20): 06 07 08 02 0d 00 08 f0 e8 43 00 00 30 00 00 00 00 00 00 00
+                    spkamp-config_btmspk (20): 00 01 04 02 0d 00 08 f0 e8 40 00 00 30 01 00 00 00 00 00 00
+                    device_type (7): "SPUApp"
+                    name (7): "SPUApp"
+                    spkamp-names (11): "arc\0btmspk\0"
+                aop-mca:
+                    AAPL,phandle (4): 0x26
+                    bclk-divider (4): 0
+                    channel-bits (4): 0x1
+                    frame-idle-len (4): 0x40
+                    mca-master (4): 0
+                    mclk-source (4): 0
+                    device_type (4): "mca"
+                    name (8): "aop-mca"
+                    frame-channels (4): 0x1
+                turtle:
+                    AAPL,phandle (4): 0x27
+                    bt-inverse-filter-cal (12): "syscfg/SIFC"
+                    turtle-temperature-cal (12): "syscfg/TTCL"
+                    bt-pico-cal (12): "syscfg/SFCl"
+                    turtle-hot-probe-cal (12): "syscfg/THPC"
+                    orb-offset-cal (12): "syscfg/OOCl"
+                    device_type (7): "turtle"
+                    name (7): "turtle"
+                aop-button:
+                    AAPL,phandle (4): 0x28
+                    function-disp_min_pwr_state (8): "`\0\0\0mPDA"
+                    function-aop_button (8): "\xa6\0\0\0DtuB"
+                    dependency-name (12): "AppleMaggie"
+                    device_type (11): "aop-button"
+                    name (11): "aop-button"
+                aop-mesa:
+                    AAPL,phandle (4): 0x29
+                    device_type (5): "mesa"
+                    function-mesa_reset (8): "G\0\0\0TSRm"
+                    name (9): "aop-mesa"
+        aop-gpio:
+            #interrupt-cells (4): 2
+            event_name-mask24 (6): "audio"
+            interrupt-controller (0)
+            compatible (25): "gpio,t8010\0gpio,s5l8960x\0"
+            #gpio-int-groups (4): 7
+            interrupt-parent (4): 0x10
+            interrupts (28): 80 00 00 00 81 00 00 00 82 00 00 00 83 00 00 00 84 00 00 00 85 00 00 00 86 00 00 00
+            event_name-mask28 (6): "homer"
+            #gpio-pins (4): 42
+            no-resume-restore (4): 0x1
+            device_type (21): "interrupt-controller"
+            reg (16): 0x100f0000,4000
+            supported-int-groups (8): 0x600000005
+            wake-events (8): 0x1306140618061c06
+            #address-cells (4): 0
+            AAPL,phandle (4): 0x2a
+            event_name-mask19 (8): "tristar"
+            name (9): "aop-gpio"
+        pmp:
+            compatible (14): "iop-pmp,s8000"
+            clock-ids (0)
+            interrupt-parent (4): 0x10
+            reg (48): 0xe300000,20000; 0xe500000,20000; 0xe400000,10000
+            interrupts (16): a8 00 00 00 a7 00 00 00 aa 00 00 00 a9 00 00 00
+            clock-gates (8): 0x3700000036
+            force-timebase-sync (0)
+            AAPL,phandle (4): 0x2b
+            iop-version (4): 0x1
+            device_type (4): "pmp"
+            power-gates (8): 0x3700000036
+            role (4): "PMP"
+            name (4): "pmp"
+            iop-pmp-nub:
+                compatible (16): "iop-nub,rtbuddy"
+                firmware-name (9): "t8010pmp"
+                sram-index (4): 0x1
+                coredump-enable (4): 0x20
+                region-size (8): 0x20000
+                region-base (8): 0x20e500000
+                user-power-managed (4): 0x1
+                name (12): "iop-pmp-nub"
+                AAPL,phandle (4): 0x2c
+        sep:
+            compatible (20): "iop,t8010\0iop,s8000\0"
+            clock-ids (4): 0x130
+            interrupt-parent (4): 0x10
+            interrupts (16): 73 00 00 00 72 00 00 00 75 00 00 00 74 00 00 00
+            clock-gates (4): 0x7f
+            reg (16): 0xda00000,10000
+            self-power-gate (0)
+            AAPL,phandle (4): 0x2d
+            iop-version (4): 0x1
+            device_type (4): "sep"
+            role (4): "SEP"
+            power-gates (4): 0x7f
+            name (4): "sep"
+            iop-sep-nub:
+                rom-panic-bytes (4): 0x38
+                compatible (12): "iop-nub,sep"
+                AAPL,phandle (4): 0x2e
+                function-wait_for_power_gate (20): "\x12\0\0\0tiaW\x7f\0\0\0\0\0\0\0\0\0\0\0"
+                function-sep_sleep_prep (12): "\x12\0\0\0plSS\x7f\0\0\0"
+                name (12): "iop-sep-nub"
+                xART:
+                    name (5): "xART"
+                    AAPL,phandle (4): 0x2f
+        sio:
+            compatible (20): "iop,t8010\0iop,s8000\0"
+            clock-ids (8): 0x11700000116
+            interrupt-parent (4): 0x10
+            interrupts (16): d3 00 00 00 d2 00 00 00 d5 00 00 00 d4 00 00 00
+            clock-gates (8): 0x40000005a
+            force-timebase-sync (0)
+            reg (16): 0xae00000,10000
+            AAPL,phandle (4): 0x30
+            iop-version (4): 0x1
+            device_type (4): "sio"
+            power-gates (4): 0x5a
+            role (4): "SIO"
+            ignore-gating (0)
+            name (4): "sio"
+            iop-sio-nub:
+                compatible (12): "iop-nub,sio"
+                name (12): "iop-sio-nub"
+                AAPL,phandle (4): 0x31
+                sio-dma:
+                    compatible (19): "sio-dma-controller"
+                    device_type (8): "sio-dma"
+                    name (8): "sio-dma"
+                    AAPL,phandle (4): 0x32
+        uart0:
+            compatible (15): "uart-1,samsung"
+            clock-ids (8): 0x400000117
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xda
+            reg (16): 0xa0c0000,4000
+            clock-gates (4): 0x50
+            AAPL,phandle (4): 0x33
+            device_type (5): "uart"
+            no-flow-control (0)
+            function-tx (16): "\x17\0\0\0OIPG\xc0\0\0\0\x02\x01\0\0"
+            uart-version (4): 0x1
+            boot-console (0)
+            name (6): "uart0"
+            debug-console:
+                name (14): "debug-console"
+                AAPL,phandle (4): 0x34
+        uart1:
+            compatible (15): "uart-1,samsung"
+            clock-ids (8): 0x400000117
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xdb
+            dma-channels (64): "?\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\x12\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0>\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\x12\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x51
+            reg (16): 0xa0c4000,4000
+            AAPL,phandle (4): 0x35
+            device_type (5): "uart"
+            function-rts (16): "\x17\0\0\0OIPGb\0\0\0\x02\0\0\0"
+            function-tx (16): "\x17\0\0\0OIPG`\0\0\0\x02\x01\0\0"
+            dma-types (8): 0x400000002
+            dma-parent (4): 0x32
+            uart-version (4): 0x1
+            name (6): "uart1"
+            bluetooth:
+                name (10): "bluetooth"
+                function-bt_wake (16): "\x17\0\0\0OIPGW\0\0\0\x01\x01\0\0"
+                compatible (14): "bluetooth,n88"
+                transport-speed (4): 0x2dc6c0
+                AAPL,phandle (4): 0x36
+                bluetooth-tx-calibration (16): "syscfg/BTTx/320"
+                product-id (4): 0x12a0
+                device_type (10): "bluetooth"
+                coex (4): 0x2
+                supported-profiles (4): 0x2ffb
+                vendor-id (4): 0x5ac
+                function-power_enable (16): "N\0\0\0OIPG\x08\0\0\0\x01\x01\0\0"
+                local-mac-address (38): "macaddr/btaddr,syscfg/BMac/6,zeroes/6"
+                transport-encoding (4): 0x3
+                voice-record (0)
+                bluetooth-rx-calibration (17): "syscfg/BTRx/0xce"
+                bluetooth-taurus-calibration (12): "syscfg/BCAL"
+        uart3:
+            compatible (15): "uart-1,samsung"
+            clock-ids (8): 0x400000117
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xdd
+            dma-channels (64): "C\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\x12\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0B\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\x12\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x53
+            reg (16): 0xa0cc000,4000
+            AAPL,phandle (4): 0x37
+            device_type (5): "uart"
+            function-rts (16): "\x17\0\0\0OIPG\x88\0\0\0\x02\0\0\0"
+            function-tx (16): "\x17\0\0\0OIPG\x86\0\0\0\x02\x01\0\0"
+            dma-types (8): 0x400000002
+            dma-parent (4): 0x32
+            uart-version (4): 0x1
+            name (6): "uart3"
+            stockholm:
+                function-device_wake (16): "\x17\0\0\0OIPG\x8b\0\0\0\x01\x01\0\0"
+                calibration (12): "syscfg/NFCl"
+                typef-phase-offset (4): 0x1e
+                antenna-type (4): 0x1
+                AAPL,phandle (4): 0x38
+                function-wake_stockholm (12): "N\0\0\0TATS\xb4\x01\0\0"
+                fdt-threshold (4): 0x70
+                function-icf_download_request (16): "\x17\0\0\0OIPG\xab\0\0\0\x01\x01\0\0"
+                phase-derivation (4): 0xb4002d
+                fdt-adjustment (4): 0
+                name (10): "stockholm"
+                dynamic-impedance-delta (4): 0
+                supports-nfc-reader-mode (0)
+                clock-config (4): 0x1
+                gc-rssi-threshold (4): 0x31
+                nfcld-threshold (4): 0x814
+                tx-ldo-config (4): 0x1
+                derived-phase-fdt (4): 0x70006d
+                required-gpios (113): "support_wake_stockholm\0support_icf_download_request\0support_device_wake\0support_venable\0support_download_request\0"
+                function-enable (16): "N\0\0\0OIPG\x0f\0\0\0\x01\x01\0\0"
+                device_type (10): "stockholm"
+                function-download_request (16): "\x17\0\0\0OIPG\x8e\0\0\0\x01\x01\0\0"
+                nfcWithRadio (4): 0x1
+        uart4:
+            compatible (15): "uart-1,samsung"
+            clock-ids (8): 0x400000117
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xde
+            dma-channels (64): "E\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\x12\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\x12\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x54
+            reg (16): 0xa0d0000,4000
+            AAPL,phandle (4): 0x39
+            device_type (5): "uart"
+            function-rts (16): "\x17\0\0\0OIPGf\0\0\0\x02\0\0\0"
+            function-tx (16): "\x17\0\0\0OIPGd\0\0\0\x02\x01\0\0"
+            dma-types (8): 0x400000002
+            dma-parent (4): 0x32
+            uart-version (4): 0x1
+            name (6): "uart4"
+            wlan:
+                wlan.fast_enterprise_nw.enabled (4): 0x1
+                bcom.roam.profiles (528): 0c 00 f6 ff b5 ff 02 00 b8 0b b4 00 02 00 b0 04 14 00 bf ff 32 00 10 00 b5 ff 80 ff 02 00 5a 00 1e 00 01 00 1e 00 0c 00 bf ff 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 10 00 b5 ff 80 ff 02 00 5a 00 1e 00 01 00 1e 00 0c 00 80 ff 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 14 00 b5 ff 80 ff 02 00 5a 00 1e 00 02 00 b4 00 0c 00 bf ff 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 14 00 b5 ff 80 ff 02 00 5a 00 1e 00 02 00 b4 00 0c 00 80 ff 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0c 00 f6 ff b5 ff 02 00 b8 0b b4 00 02 00 b0 04 14 00 bf ff 32 00 10 00 b5 ff 80 ff 02 00 5a 00 1e 00 02 00 b4 00 0c 00 bf ff 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 10 00 b5 ff 80 ff 02 00 5a 00 1e 00 02 00 b4 00 0c 00 80 ff 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0c 00 f6 ff ce ff 02 00 b0 04 b4 00 02 00 58 02 14 00 bf ff 32 00 0c 00 ce ff ba ff 02 00 b0 04 b4 00 02 00 68 01 0f 00 bf ff 32 00 10 00 ba ff 80 ff 02 00 5a 00 1e 00 01 00 1e 00 0c 00 bf ff 32 00 10 00 ba ff 80 ff 02 00 5a 00 1e 00 01 00 1e 00 0c 00 80 ff 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                audio-protection-driver (18): "AppleCS42L71Audio"
+                module-instance (9): "kristoff"
+                bcom.roam.enterprise (20): 01 00 5a 00 1e 00 07 00 02 00 00 00 ba ff 0c 00 ba ff 0c 00
+                wlan.background-scan-cache (4): 0x1
+                wifi-antenna-sku-info (12): "syscfg/WSKU"
+                wlan.enhancedlocale.enabled (4): 0
+                bcom.ps.default (12): 03 00 3c 00 00 00 01 00 a0 0f 00 00
+                wlan.tx-power-cap-ctrl (8): 0x20202020201
+                wlan.bss.5GHz-preference (4): 0x1effbf
+                wlan.enhancedTrgDisc (4): 0x2
+                bcom.roam.default (20): 01 00 5a 00 1e 00 07 00 02 00 00 00 b5 ff 14 00 b5 ff 0a 00
+                bcom.oscar.profilestates (12): 00 00 10 00 20 00 30 00 04 05 00 00
+                wlan.autocountry.enabled (4): 0
+                AAPL,phandle (4): 0x3a
+                name (5): "wlan"
+                wifi-calibration-msf (29): "syscfg/WCAL/1780,zeroes/1780"
+                function-reg_on (16): "N\0\0\0OIPG\x0a\0\0\0\x01\x01\0\0"
+                wlan.enterprise.params (4): 0x7
+                wlan.mimo_ps.enabled (4): 0x1
+                device_type (5): "wlan"
+                compatible (42): "wlan-pcie-uart,bcm4350\0wlan-pcie-uart,bcm\0"
+                local-mac-address (40): "macaddr/wifiaddr,syscfg/WMac/6,zeroes/6"
+                wlan.dfrts (8): 0x5000200c8003c
+                function-pcie_port_control (12): "\x8b\0\0\0CtrP\x90\0\0\0"
+                wlan.awdl.params (8): 0
+                bcom.ap.80211nenabled (4): 0x1
+                bcom.btc.params (32): 06 00 00 00 0f 00 00 00 08 00 00 00 c8 af 00 00 09 00 00 00 98 3a 00 00 0a 00 00 00 20 4e 00 00
+                wlan.tethering.enabled (4): 0x1
+                bcom.ps.realtime (12): 03 00 c8 00 00 00 01 00 a0 0f 00 00
+                wlan.ocl.enabled (4): 0x1
+                wlan.dfsproxy.enabled (4): 0x1
+                wlan.autojoin_ps.enabled (4): 0x1
+        uart5:
+            compatible (15): "uart-1,samsung"
+            clock-ids (8): 0x400000117
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xdf
+            reg (16): 0xa0d4000,4000
+            clock-gates (4): 0x55
+            AAPL,phandle (4): 0x3b
+            device_type (5): "uart"
+            no-flow-control (0)
+            function-tx (16): "\x17\0\0\0OIPG\xad\0\0\0\x02\x01\0\0"
+            uart-version (4): 0x1
+            name (6): "uart5"
+            gas-gauge:
+                battery-id-block (4): 0x2
+                compatible (32): "gas-gauge,bq27540\0gas-gauge,hdq\0"
+                critical-flag-voltage (4): 0xc80
+                critical-flag-delay (4): 0x1e
+                function-log_shutdown_rsn2 (12): "N\0\0\0Umar\x01\00\x02"
+                function-log_shutdown_dlog (12): "N\0\0\0Umar\x01\0(\x01"
+                function-battery_swi (16): "\x17\0\0\0OIPG\xad\0\0\0\x02\x01\0\0"
+                function-log_shutdown_rsn (12): "N\0\0\0Umar\x01\0@\0"
+                device_type (10): "gas-gauge"
+                gauge-enable-interrupts (0)
+                AAPL,phandle (4): 0x3c
+                function-battery_swi_request (8): "O\0\0\0mQDH"
+                update-sample-config (4): 0x17
+                enable-upo-counter (0)
+                name (10): "gas-gauge"
+        uart6:
+            compatible (15): "uart-1,samsung"
+            clock-ids (8): 0x400000117
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xe0
+            reg (16): 0xa0d8000,4000
+            clock-gates (4): 0x56
+            AAPL,phandle (4): 0x3d
+            device_type (5): "uart"
+            no-flow-control (0)
+            function-tx (16): "\x17\0\0\0OIPG\xc2\0\0\0\x02\x01\0\0"
+            uart-version (4): 0x1
+            name (6): "uart6"
+            iap:
+                function-dock_parent (8): "\xa7\0\0\0Pcca"
+                name (4): "iap"
+                AAPL,phandle (4): 0x3e
+        uart7:
+            compatible (15): "uart-1,samsung"
+            clock-ids (8): 0x400000117
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xe1
+            dma-channels (64): "K\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\x12\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0J\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\x12\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x57
+            reg (16): 0xa0dc000,4000
+            AAPL,phandle (4): 0x3f
+            device_type (5): "uart"
+            function-tx (16): "\x17\0\0\0OIPG\x98\0\0\0\x02\x01\0\0"
+            dma-types (8): 0x400000002
+            no-flow-control (0)
+            dma-parent (4): 0x32
+            uart-version (4): 0x1
+            name (6): "uart7"
+            homer:
+                interrupt-parent (4): 0x2a
+                compatible (19): "hid-transport,uart"
+                AAPL,phandle (4): 0x40
+                function-reset (16): "N\0\0\0OIPG\x13\0\0\0\0\0\0\0"
+                function-bootstrap (16): "\x17\0\0\0OIPG\xcb\0\0\0\0\x01\0\0"
+                interrupts (8): 0x60000030000001c
+                image-tag (4): "rmoh"
+                bootloader (4): "BMTS"
+                device_type (6): "homer"
+                sensor-cal (12): "syscfg/PSCl"
+                name (6): "homer"
+        spi1:
+            compatible (14): "spi-1,samsung"
+            function-spi_cs0 (16): "\x17\0\0\0OIPG\x83\0\0\0\x01\0\0\0"
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xd7
+            clock-gates (4): 0x4b
+            clock-ids (4): 0x133
+            reg (16): 0xa084000,4000
+            AAPL,phandle (4): 0x41
+            device_type (4): "spi"
+            #size-cells (4): 7
+            function-spi_cs1 (16): "\x17\0\0\0OIPG\xb1\0\0\0\x01\0\0\0"
+            #address-cells (4): 1
+            spi-version (4): 0x1
+            name (5): "spi1"
+            audio-codec:
+                external-power-provider (4): 0x25
+                acoustic-trim-gains (12): "syscfg/ATGa"
+                function-hawk_master (12): "\x83\0\0\01DUAh2pa"
+                function-hawk_active (12): "v\0\0\0As2i2nip"
+                function-maggie_enable (8): "%\0\0\0Egam"
+                function-msp_active (12): "v\0\0\0As2i0nip"
+                fmic-micbias (4): 0x204
+                function-asp_master (12): "\x85\0\0\01DUAx2pa"
+                rx-receiver (0)
+                interrupt-parent (4): 0x2a
+                dependency-timeout-us_hawk (4): 0x989680
+                imic-micbias (4): 0x201
+                interrupts (8): 0x600000100000018
+                dependency-timeout-us_asp (4): 0x989680
+                pollctl (16): 01 00 00 00 00 00 00 00 01 00 00 00 40 00 00 00
+                smic-mic (4): "a2da"
+                function-mbus_dock_parent (8): "\xa7\0\0\0Pcca"
+                smic-micbias (4): 0x203
+                function-maggie_mclk (8): "%\0\0\0Ekcm"
+                lmic-micbias (4): 0x202
+                function-asp_active (12): "v\0\0\0As2i2nip"
+                dependency-name_asp (12): "AppleMaggie"
+                function-pdm_rx_control (8): "R\0\0\0iMDP"
+                AAPL,phandle (4): 0x42
+                fmic-mic (4): "b2da"
+                name (12): "audio-codec"
+                dependency-flag_asp (4): 0x3
+                dependency-flag_hawk (4): 0x3
+                function-hawk_pwr (12): "N\0\0\0Lump\x08\x03\0\0"
+                function-maggie_anc_debug (8): "C\0\0\0CNAm"
+                function-digitalldo_pulldown (16): "N\0\0\0OIPG\x0c\0\0\0\x01\x01\0\0"
+                asp-channelshift (4): 0x2
+                compatible (22): "audio-control,cs42l71"
+                device_type (14): "audio-control"
+                imic-mic (4): "a1da"
+                function-msp_master (12): "\x8a\0\0\01DUAv2pa"
+                dependency-name_hawk (12): "AppleMaggie"
+                asp-channel-offset (4): 0x10
+                reg (32): 0x5300000000,8010000; 0x14,0
+                asp-slave (0)
+                lmic-mic (4): "b1da"
+            maggie-arc:
+                function-debug_master (12): "\x86\0\0\01DUAm2pa"
+                function-debug_active (12): "v\0\0\0As2i2nip"
+                reg (32): 0x5300000001,8010101; 0x2,0
+                AAPL,phandle (4): 0x43
+                function-maggie_reset (16): "\x17\0\0\0OIPG\x16\0\0\0\x01\0\x01\0"
+                external-power-provider (4): 0x25
+                speaker-protection (4): 0x1
+                actuator-calibration (12): "syscfg/TCal"
+                function-aop_maggie_enable (8): "%\0\0\0Egam"
+                dependency-timeout-us (4): 0x989680
+                function-aop_mclk_control (8): "%\0\0\0Ekcm"
+                name (11): "maggie-arc"
+                function-maggie_done (16): "\x17\0\0\0OIPG\x1a\0\0\0\0\x01\0\0"
+                compatible (25): "audio-control,maggie-arc"
+                function-codec_asp_dout (16): "\x17\0\0\0OIPG\x09\0\0\0\x01\x01\0\x02"
+                function-spkamp_arc_state (12): "%\0\0\0S52l\0\0\0\0"
+                dependency-flag (4): 0x3
+                maggie-calibration (12): "syscfg/PSCl"
+                dependency-name (12): "AppleMaggie"
+                maggie_coefficients (512): "\0\0\0\0\0\0\0\0\0\0\x17\x11\xc4\xefm\x0f\xaeX\x0a\xd7\x8av\xcf\xc8\0\0\0\0\0\0\0\0,\x13\x1b\x80\xe9?\0\0\0\0\0\0\xfb,\xd4\xech\x0b\xfd\x02\xa5\x04{\x7fH\x7f\x15\x02\xb2\xf7c~'\x04S\x08\x9d\x10\x9d\x06\xf8\xff\xcd\x01\0\0\x8c!\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\xb4\x01L\xfeUm\xab\x92\xc0+@\xd4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+                device_type (14): "audio-control"
+                maggie_tdm_config (4): 0x80a0200
+                firmware-name (24): "MaggieBitstream_D10.bin"
+        spi2:
+            compatible (14): "spi-1,samsung"
+            function-spi_cs0 (16): "\x17\0\0\0OIPGQ\0\0\0\x01\0\x01\0"
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xd8
+            dma-channels (64): "\x18\0\0\0\0\0\0\0\0\0\0\0\x80\0\0\0@\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x19\0\0\0\0\0\0\0\0\0\0\0\x80\0\0\0@\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x4c
+            clock-ids (4): 0x134
+            reg (16): 0xa088000,4000
+            device_type (4): "spi"
+            #size-cells (4): 7
+            AAPL,phandle (4): 0x44
+            #address-cells (4): 1
+            spi-version (4): 0x1
+            dma-parent (4): 0x32
+            name (5): "spi2"
+            multi-touch:
+                function-power_ldo (12): "N\0\0\0Lump\x1e\x02\0\0"
+                hid-merge-personality (8): "C1F5D,2"
+                function-clock_enable (20): "\x12\0\0\0KLCT\x08\0\0\0d\0\0\0\0\x80\0\0"
+                orb-gap-cal (12): "syscfg/OrbG"
+                force-supported (0)
+                sshb-force-cal (12): "syscfg/SFCl"
+                hbpp-version (4): 0x103
+                otp-address (4): 0xffffffff
+                reg (32): 0x7c00000000,138808010301; 0x2710,0
+                poweroff-at-shutdown (0)
+                AAPL,phandle (4): 0x45
+                orb-dynamic-accel-cal (12): "syscfg/FDAC"
+                multi-touch-calibration (31): "syscfg/MtCl/0x400,zeroes/0x400"
+                reset-delays (4): 0x64320000
+                sshb-2.75v-ungrouped-cal (12): "syscfg/uTSC"
+                function-enable_cs (16): "\x17\0\0\0OIPGQ\0\0\0\x01\x01\0\0"
+                name (12): "multi-touch"
+                interrupt-parent (4): 0x17
+                function-reset (16): "\x17\0\0\0OIPG\xa1\0\0\0\x01\0\x01\0"
+                compatible (17): "hid-transport,k1"
+                shape-dynamic-accel-cal (12): "syscfg/SDAC"
+                interrupts (8): 0x6000000000000a6
+                orb-offset-cal (12): "syscfg/OOCl"
+                orb-force-cal (12): "syscfg/OFCl"
+                power-sequence (72): "function-power_ana\0\0\x0a\x01\0function-power_ldo\0\0\0\x01\0function-clock_enable\0\x0a\0\x03\0"
+                orb-accel-cal (12): "syscfg/OICo"
+                prox-calibration (12): "syscfg/PxCl"
+                sshb-2.75v-grouped-cal (12): "syscfg/gTSC"
+                sshb-inverse-filter-cal (12): "syscfg/SIFC"
+                device_type (12): "multi-touch"
+                function-power_ana (12): "J\0\0\0ELpd\x02\x03\0\0"
+                sshb-5v-ungrouped-cal (12): "syscfg/uFSC"
+        spi3:
+            compatible (14): "spi-1,samsung"
+            function-spi_cs0 (8): "\x01\0\0\0llun"
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xd9
+            dma-channels (64): "\x1a\0\0\0\0\0\0\0\0\0\0\0\x80\0\0\0@\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x1b\0\0\0\0\0\0\0\0\0\0\0\x80\0\0\0@\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x4d
+            clock-ids (4): 0x135
+            reg (16): 0xa08c000,4000
+            device_type (4): "spi"
+            #size-cells (4): 7
+            AAPL,phandle (4): 0x46
+            #address-cells (4): 1
+            spi-version (4): 0x1
+            dma-parent (4): 0x32
+            name (5): "spi3"
+            mesa:
+                power-off-3v0-1v8-delay (4): 0x4
+                function-mesa_pwr1v8 (12): "N\0\0\0Lump\x0e\x03\0\0"
+                function-mesa-reset-ntfy (8): ")\0\0\0TSRn"
+                AAPL,phandle (4): 0x47
+                power-on-delay (4): 0x7
+                time-between-scans (4): 0x20000
+                mesaType (4): 0x1
+                power-off-delay (4): 0x6
+                function-bb_gpio (16): "\x17\0\0\0OIPG\xa4\0\0\0\0\0\0\0"
+                scan-timer-reset-time (4): 0x9999
+                name (5): "mesa"
+                interrupt-parent (4): 0x17
+                compatible (15): "biosensor,mesa"
+                dispatch-hid-events (4): 0
+                interrupts (8): 0x300000055
+                function-hid_event_dispatch (8): "\xa6\0\0\0DtuB"
+                power-on-1v8-3v0-delay (4): 0x3
+                max-scan-time (4): 0x13333
+                spi-frequency (4): 0x7a1200
+                device_type (5): "mesa"
+                reg (32): 0x1f400000000,8010100; 0x14,0
+                function-mesa_pwr (12): "N\0\0\0Lump\x0c\x03\0\0"
+        i2c0:
+            compatible (32): "i2c,t8010\0i2c,s5l8940x\0iic,soft\0"
+            clock-ids (4): 0x117
+            interrupt-parent (4): 0x10
+            #address-cels (4): 1
+            clock-gates (4): 0x46
+            interrupts (4): 0xe8
+            reg (16): 0xa110000,1000
+            AAPL,phandle (4): 0x48
+            filter-tunable (8): 0x20000000200
+            #size-cells (4): 3
+            device_type (4): "i2c"
+            function-device_reset (12): "\x12\0\0\0TSRAF\0\0\0"
+            function-iic_sda (16): "\x17\0\0\0OIPG\xc4\0\0\0\x02\x01\x01\0"
+            function-iic_scl (16): "\x17\0\0\0OIPG\xc5\0\0\0\x02\x01\x01\0"
+            name (5): "i2c0"
+            tristar:
+                acc-ld-thres-hi-dn1 (4): 0x14a
+                acc-ld-thres-acc-hi-dp2 (4): 0x258
+                acc-ld-thres-un-lo-dp2 (4): 0x50
+                acc-ld-thres-leakage (4): 0x1e
+                acc-ld-thres-limit-dn1 (4): 0x1068
+                acc-ld-thres-un-hi-dp1 (4): 0xd2
+                acc-ld-thres-un-limit-dn2 (4): 0xa28
+                acc-ld-thres-un-limit-dp2 (4): 0xa28
+                acc-ld-thres-acc-limit-dn1 (4): 0x1130
+                acc-ld-thres-acc-lo-dp2 (4): 0x8e
+                acc-ld-thres-un-lo-dn1 (4): 0x50
+                interrupt-parent (4): 0x2a
+                acc-ld-thres-acc-limit-dp2 (4): 0x1130
+                interrupts (8): 0x600000300000013
+                acc-ld-thres-limit-dp1 (4): 0x1068
+                acc-ld-thres-hi-dp2 (4): 0x14a
+                acc-ld-thres-hi-dn2 (4): 0x352
+                acc-ld-thres-un-lo-dp1 (4): 0x32
+                acc-ld-thres-acc-hi-dn1 (4): 0x258
+                acc-ld-thres-acc-limit-dn2 (4): 0x1130
+                acc-ld-thres-un-limit-dn1 (4): 0xa28
+                acc-ld-thres-lo-dp1 (4): 0x1e
+                acc-ld-thres-un-limit-dp1 (4): 0xa28
+                acc-ld-thres-lo-dn1 (4): 0x4b
+                function-brick_id_voltage (16): "N\0\0\0Vcda\x01\0\0\0\0\0\x01\0"
+                name (8): "tristar"
+                acc-ld-thres-acc-lo-dn1 (4): 0x8e
+                AAPL,phandle (4): 0x49
+                acc-ld-thres-un-hi-dn2 (4): 0xd2
+                acc-ld-thres-acc-hi-dp1 (4): 0xe6
+                dock (4): 0xa7
+                compatible (17): "tristar,cbtl1610"
+                acc-ld-thres-acc-lo-dp1 (4): 0x32
+                acc-ld-thres-limit-dn2 (4): 0x1068
+                acc-ld-thres-un-hi-dp2 (4): 0x168
+                acc-ld-thres-lo-dp2 (4): 0x4b
+                acc-ld-thres-acc-hi-dn2 (4): 0xe6
+                acc-ld-thres-lo-dn2 (4): 0xcd
+                acc-ld-thres-un-hi-dn1 (4): 0x168
+                acc-ld-thres-un-lo-dn2 (4): 0x32
+                reg (16): 0x9c40000001a,0
+                acc-ld-thres-acc-limit-dp1 (4): 0x1130
+                function-adc_aux_voltage (16): "N\0\0\0Vcda\x01\0\x08\0\0\0\x01\0"
+                acc-ld-thres-hi-dp1 (4): 0x96
+                acc-ld-thres-limit-dp2 (4): 0x1068
+                acc-ld-thres-acc-lo-dn2 (4): 0x32
+            display-pmu:
+                device-string (16): "Unknown"
+                compatible (21): "display-pmu,chestnut"
+                sage-ldo (4): 0
+                device-id (4): 0
+                device-revision (4): 0
+                reg (16): 0x9c400000027,0
+                name (12): "display-pmu"
+                AAPL,phandle (4): 0x4a
+            lm3539:
+                AAPL,phandle (4): 0x4b
+                compatible (17): "backlight,lm3539"
+                strobeTimeoutOverride (4): 0xfa0000
+                device_type (10): "backlight"
+                name (7): "lm3539"
+                reg (16): 0x9c400000062,0
+            boost:
+                AAPL,phandle (4): 0x4c
+                device_type (6): "boost"
+                name (6): "boost"
+                reg (16): 0x9c4000000ea,0
+        i2c1:
+            compatible (32): "i2c,t8010\0i2c,s5l8940x\0iic,soft\0"
+            clock-ids (4): 0x117
+            interrupt-parent (4): 0x10
+            #address-cels (4): 1
+            clock-gates (4): 0x47
+            interrupts (4): 0xe9
+            reg (16): 0xa111000,1000
+            AAPL,phandle (4): 0x4d
+            filter-tunable (8): 0x20000000200
+            #size-cells (4): 3
+            device_type (4): "i2c"
+            function-device_reset (12): "\x12\0\0\0TSRAG\0\0\0"
+            function-iic_sda (16): "\x17\0\0\0OIPG'\0\0\0\x02\x01\x01\0"
+            function-iic_scl (16): "\x17\0\0\0OIPG(\0\0\0\x02\x01\x01\0"
+            name (5): "i2c1"
+            pmu:
+                #interrupt-cells (4): 1
+                upo-shutdown-delay (4): 0
+                interrupt-controller (0)
+                compatible (10): "pmu,d2333"
+                event_name-gpio1 (8): "charger"
+                event_name-gpio10 (5): "gnss"
+                interrupt-parent (4): 0x2a
+                interrupts (8): 0x60000010000001a
+                reg (16): 0x9c400000074,0
+                AAPL,phandle (4): 0x4e
+                event_name-gpio4 (5): "wlan"
+                device_type (21): "interrupt-controller"
+                function-suspend_helper (8): "\x12\0\0\0TR2S"
+                event_name-gpio2 (9): "baseband"
+                #address-cells (4): 0
+                function-get_vbus_detect (8): "O\0\0\0SUBV"
+                event_name-gpio12 (10): "bluetooth"
+                event_name-gpio5 (10): "stockholm"
+                name (4): "pmu"
+            tigris:
+                interrupt-parent (4): 0x4e
+                compatible (15): "charger,sn2400"
+                sn2400-grace-period (4): 0x64
+                interrupts (4): 0x30
+                AAPL,phandle (4): 0x4f
+                function-battery_alert (8): "<\0\0\0RLAb"
+                device_type (12): "usb-charger"
+                name (7): "tigris"
+                reg (16): 0x9c400000075,0
+        i2c2:
+            compatible (32): "i2c,t8010\0i2c,s5l8940x\0iic,soft\0"
+            clock-ids (4): 0x117
+            interrupt-parent (4): 0x10
+            #address-cels (4): 1
+            clock-gates (4): 0x48
+            interrupts (4): 0xea
+            reg (16): 0xa112000,1000
+            AAPL,phandle (4): 0x50
+            filter-tunable (8): 0x20000000200
+            #size-cells (4): 3
+            device_type (4): "i2c"
+            function-device_reset (12): "\x12\0\0\0TSRAH\0\0\0"
+            function-iic_sda (16): "\x17\0\0\0OIPG\x85\0\0\0\x02\x01\x01\0"
+            function-iic_scl (16): "\x17\0\0\0OIPG\x84\0\0\0\x02\x01\x01\0"
+            name (5): "i2c2"
+            als:
+                function-int_status (16): "\x17\0\0\0OIPG\x8d\0\0\0\0\0\x01\0"
+                compatible (10): "als,ct821"
+                als-colorCfg (16): ""
+                interrupt-parent (4): 0x17
+                interrupts (8): 0x10000008d
+                reg (16): 0x9c400000029,0
+                AAPL,phandle (4): 0x51
+                device_type (4): "als"
+                alsCalibration (12): "syscfg/LSCI"
+                noMultiColorSupport (4): 0x1
+                useAABPlugin (4): 0x1
+                probe-for-hardware (4): 0x1
+                name (4): "als"
+            audio-speaker-top:
+                AAPL,phandle (4): 0x52
+                external-power-provider (4): 0x25
+                speaker-nonlinearity (12): "syscfg/SpNL"
+                function-mclk_control (8): "%\0\0\0Ekcm"
+                primary-speaker (4): "SpoT"
+                name (18): "audio-speaker-top"
+                secondary-speaker (4): "StoB"
+                dependency-timeout-us (4): 0x989680
+                channel-number (4): 0x1
+                convoy-spkr (8): 0x636e767900000053
+                compatible (22): "audio-control,cs35l26"
+                function-reset (16): "\x17\0\0\0OIPG\x8c\0\0\0\x01\0\x01\0"
+                tdm-config (4): 0x2040302
+                speaker-calib (12): "syscfg/SpCl"
+                dependency-flag (4): 0x3
+                function-maggie_enable (8): "%\0\0\0Egam"
+                function-secSpkr_control (12): "%\0\0\0S52l\x01\0\0\0"
+                acoustic-trim-gains (12): "syscfg/ATGa"
+                device_type (14): "audio-control"
+                dependency-name (12): "AppleMaggie"
+                reg (16): 0x9c400000040,0
+                speaker-config (16): 00 0d 0b 20 20 47 09 08 f0 e8 40 30 00 00 00 00
+            audio-convoy:
+                enable_pll_lock_detector (4): 0x1
+                compatible (22): "audio-control,ad81006"
+                reg (16): 0x9c400000021,0
+                AAPL,phandle (4): 0x53
+                calibration-data (4): 0
+                device_type (14): "audio-control"
+                name (13): "audio-convoy"
+        i2c3:
+            compatible (32): "i2c,t8010\0i2c,s5l8940x\0iic,soft\0"
+            clock-ids (4): 0x117
+            interrupt-parent (4): 0x10
+            #address-cels (4): 1
+            clock-gates (4): 0x49
+            interrupts (4): 0xeb
+            reg (16): 0xa113000,1000
+            AAPL,phandle (4): 0x54
+            filter-tunable (8): 0x20000000200
+            #size-cells (4): 3
+            device_type (4): "i2c"
+            function-device_reset (12): "\x12\0\0\0TSRAI\0\0\0"
+            function-iic_sda (16): "\x17\0\0\0OIPG*\0\0\0\x02\x01\x01\0"
+            function-iic_scl (16): "\x17\0\0\0OIPG)\0\0\0\x02\x01\x01\0"
+            name (5): "i2c3"
+            mic-temp-sens1:
+                mic-bias-index (4): 0
+                compatible (20): "mic-temp-sens,ica60"
+                function-micbias-enable (8): "B\0\0\0BciM"
+                AAPL,phandle (4): 0x55
+                location-name (15): "mic-temp-sens1"
+                location-id (4): "1cim"
+                device_type (14): "mic-temp-sens"
+                name (15): "mic-temp-sens1"
+                reg (16): 0x271000000054,0
+            mic-temp-sens2:
+                mic-bias-index (4): 0x1
+                compatible (20): "mic-temp-sens,ica60"
+                function-micbias-enable (8): "B\0\0\0BciM"
+                AAPL,phandle (4): 0x56
+                location-name (15): "mic-temp-sens2"
+                location-id (4): "2cim"
+                device_type (14): "mic-temp-sens"
+                name (15): "mic-temp-sens2"
+                reg (16): 0x271000000056,0
+        otgphyctrl:
+            errata (4): 0
+            compatible (37): "otgphyctrl,t8010\0otgphyctrl,s5l8960x\0"
+            clock-mask (4): 0x1
+            reg (32): 0xc000030,20; 0xe0d8000,1000
+            cfg0-device (4): "\xc3{77"
+            cfg0-host (4): "\x03;77"
+            AAPL,phandle (4): 0x57
+            cfg1-host (4): 0x20c04
+            cfg1-device (4): 0x20c04
+            device_type (11): "otgphyctrl"
+            name (11): "otgphyctrl"
+        usb-complex:
+            name (12): "usb-complex"
+            compatible (39): "usb-complex,t8010\0usb-complex,s5l8960x\0"
+            ranges (24): 00 00 00 00 00 00 00 00 00 00 00 0c 00 00 00 00 00 00 60 00 00 00 00 00
+            reg (16): 0xc900000,a0
+            usb_widget (48): "\x1c\0\0\0\0\0\0\0\x08\0\0\0\0\0\0\0<\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\0\0\0\0\0\0\0\x08\0\0\0\0\0\0\0"
+            AAPL,phandle (4): 0x58
+            clock-gates (24): 08 00 00 00 69 00 00 00 0a 00 00 00 65 00 00 00 0c 00 00 00 5b 00 00 00
+            #address-cells (4): 2
+            #size-cells (4): 2
+            clock-ids (4): 0x114
+            device_type (12): "usb-complex"
+            usb-device:
+                publish-criteria (4): 0x3
+                AAPL,phandle (4): 0x59
+                configuration-string (19): "stdMuxPTPEthValIDA"
+                function-dock_parent (8): "\xa7\0\0\0Pcca"
+                product-string (7): "iPhone"
+                host-mac-address (40): "macaddr/wifiaddr,syscfg/WMac/6,zeroes/6"
+                device-mac-address (39): "macaddr/ethaddr,syscfg/EMac/6,zeroes/6"
+                num-of-eps (4): 0xe
+                name (11): "usb-device"
+                interrupt-parent (4): 0x10
+                vendor-id (4): 0x5ac
+                vendor-string (11): "Apple Inc."
+                compatible (54): "usb-device,t8010\0usb-device,t7000\0usb-device,s5l8900x\0"
+                interrupts (4): 0xf1
+                product-id (4): 0x12a8
+                ahb-burst (4): 0xe
+                product-version (4): 0x901
+                clock-mask (4): 0x2
+                function-usb_500_100 (12): "\xa7\0\0\0GRHC\0\0\0\0"
+                fifo-depth (4): 0x820
+                eps-dir-bitmap (4): 0x264
+                device_type (11): "usb-device"
+                reg (32): 0x100000,10000; 0x1000000020,10
+            usb-ehci0:
+                ctrldsseg (4): 0x8
+                name (10): "usb-ehci0"
+                companion-id (4): 0
+                compatible (48): "usb-ehci,t8010\0usb-ehci,t7000\0usb-ehci,s5l8960x\0"
+                interrupt-parent (4): 0x10
+                interrupts (4): 0xf2
+                publish-criteria (4): 0x4
+                reg (32): 0x200000,10000; 0x0,8
+                AAPL,phandle (4): 0x5a
+                device_type (9): "usb-ehci"
+                location (4): 0x1
+                errata (4): 0
+                cfg-incr (4): 0xf
+                bus-number (4): 0x1
+                clock-mask (4): 0x4
+                usb-ehci0-port1:
+                    port (4): 0x1
+                    AAPL,phandle (4): 0x5b
+                    clock-mask (4): 0x4
+                    port-current-limit (4): 0x32
+                    device_type (16): "usb-ehci0-port1"
+                    name (16): "usb-ehci0-port1"
+                    port-type (4): 0x2
+            usb-ohci0:
+                name (10): "usb-ohci0"
+                companion-id (4): 0
+                compatible (48): "usb-ohci,t8010\0usb-ohci,t7000\0usb-ohci,s5l8960x\0"
+                interrupt-parent (4): 0x10
+                interrupts (4): 0xf3
+                port-count (4): 0x1
+                publish-criteria (4): 0x4
+                reg (32): 0x300000,10000; 0x8,8
+                isoch-out-alignment (4): 0x80
+                device_type (9): "usb-ohci"
+                AAPL,phandle (4): 0x5c
+                location (4): 0x2
+                errata (4): 0x2000000
+                bus-number (4): 0x2
+                clock-mask (4): 0x8
+                usb-ohci0-port1:
+                    port (4): 0x1
+                    AAPL,phandle (4): 0x5d
+                    clock-mask (4): 0x8
+                    port-current-limit (4): 0x32
+                    device_type (16): "usb-ohci0-port1"
+                    name (16): "usb-ohci0-port1"
+                    port-type (4): 0x2
+        mipi-dsim:
+            invert-interrupt-mask (0)
+            clock-gates (4): 0x71
+            AAPL,phandle (4): 0x5e
+            sac-enable (4): 0x1
+            function-saca (12): "\xab\0\0\0ACAS0dcl"
+            mipi-version (4): 0x2
+            agile-line-count (4): 0x9
+            function-device_reset (12): "\x12\0\0\0TSRAq\0\0\0"
+            interrupt-parent (4): 0x10
+            name (10): "mipi-dsim"
+            sac-frequency-list (264): 00 8c 86 47 00 00 00 00 00 00 00 00 30 00 00 00 00 00 00 00 00 00 00 00 25 3b 52 47 00 00 00 00 06 00 00 00 5b 01 00 00 00 00 00 00 00 00 00 00 ab 2a 35 47 00 00 00 00 08 00 00 00 be 01 00 00 00 00 00 00 00 00 00 00 00 56 18 46 00 00 00 00 00 00 00 00 2f 00 00 00 00 00 00 00 00 00 00 00 c0 1c 46 46 00 00 00 00 07 00 00 00 87 01 00 00 00 00 00 00 00 00 00 00 80 e3 73 46 00 00 00 00 03 00 00 00 c3 00 00 00 00 00 00 00 00 00 00 00 00 71 cf 46 00 00 00 00 01 00 00 00 61 00 00 00 00 00 00 00 00 00 00 00 c0 37 fd 46 00 00 00 00 07 00 00 00 8b 01 00 00 00 00 00 00 00 00 00 00 00 af 18 47 00 00 00 00 09 00 00 00 ef 01 00 00 00 00 00 00 00 00 00 00 00 4d db 45 00 00 00 00 05 00 00 00 23 01 00 00 00 00 00 00 00 00 00 00 e9 80 9d 46 00 00 00 00 0a 00 00 00 1d 02 00 00 00 00 00 00 00 00 00 00
+            phy-test (144): ""
+            compatible (21): "mipi-dsim-1,synopsys"
+            clock-ids (4): 0x10c
+            interrupts (4): 0xa3
+            apply-testcode (4): 0x1
+            sac-frequency-list-count (4): 0xb
+            sac-version (4): 0x3
+            sac-divisor (4): 0x8
+            #lanes (4): 2
+            phy-test-num (4): 0
+            device_type (10): "mipi-dsim"
+            mipi-top-size (4): 0x50
+            power-gates (4): 0x71
+            reg (16): 0x6600000,100000
+            lcd:
+                compatible (10): "lcd,pinot"
+                function-lcd_ldo (12): "J\0\0\0ELpd\x01\x03\0\0"
+                function-reset (16): "\x17\0\0\0OIPG\xac\0\0\0\x01\0\0\0"
+                raw-panel-id (16): ""
+                lcd-panel-id (4): 0
+                device_type (4): "lcd"
+                name (4): "lcd"
+                AAPL,phandle (4): 0x5f
+        disp0:
+            function-lcd_enable (8): "_\0\0\0Edcl"
+            compatible (12): "disp0,t8010"
+            clock-ids (8): 0x12300000124
+            interrupt-parent (4): 0x10
+            function-frame_swap (8): "\x14\0\0\0PWSF"
+            clock-gates (20): 70 00 00 00 76 00 00 00 74 00 00 00 73 00 00 00 75 00 00 00
+            interrupts (24): 9a 00 00 00 9e 00 00 00 9f 00 00 00 a0 00 00 00 a1 00 00 00 9b 00 00 00
+            display-default-color (4): 0
+            iommu-parent (4): 0x62
+            device_type (18): "display-subsystem"
+            reg (144): 0x6200000,9000; 0x620c000,4000; 0x6400000,4000; 0x6440000,4000; 0x6480000,8000; 0x64c0000,8000; 0x6500000,4000; 0x6540000,4000; 0x67c0000,4000
+            AAPL,phandle (4): 0x60
+            function-clpc_enabled (8): "\x12\0\0\0CPLC"
+            display-carveout-inhibitcache (4): 0x1
+            dot-pitch (4): 0
+            power-gates (4): 0x70
+            name (6): "disp0"
+        dart-disp0:
+            bypass-address (8): 0x80000000800
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            page-size (4): 0x1000
+            interrupt-parent (4): 0x10
+            interrupts (8): 0x9d0000009c
+            clock-gates (4): 0x25
+            reg (32): 0x6304000,4000; 0x6300000,4000
+            AAPL,phandle (4): 0x61
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            smmu-options (4): 0x2
+            dart-options (4): 0x5
+            fetch-config (4): 0xe0303
+            diag-config (4): 0x100
+            power-gates (4): 0x25
+            smmu-present (4): 0x1
+            stt-idx-width (4): 0xa
+            name (11): "dart-disp0"
+            mapper-disp0:
+                tail-padding (4): 0x1
+                compatible (13): "iommu-mapper"
+                AAPL,phandle (4): 0x62
+                iomd-cache-ttl (4): 0x7d0
+                iomd-cache-size (4): 0x40
+                device_type (12): "dart-mapper"
+                name (13): "mapper-disp0"
+                reg (4): 0
+        scaler0:
+            hardware-version (4): 0x6
+            compatible (29): "scaler,t8010\0scaler,s5l8960x\0"
+            iommu-parent (4): 0x65
+            interrupt-parent (4): 0x10
+            interrupts (8): 0xcd000000cc
+            clock-gates (4): 0x19
+            clock-ids (4): 0x127
+            reg (32): 0x7900000,4000; 0x790a000,200
+            AAPL,phandle (4): 0x63
+            device_type (7): "scaler"
+            power-gates (4): 0x19
+            coprovider-group (7): "scaler"
+            name (8): "scaler0"
+        dart-scaler:
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            page-size (4): 0x1000
+            interrupt-parent (4): 0x10
+            interrupts (12): ce 00 00 00 cd 00 00 00 cf 00 00 00
+            clock-gates (4): 0x21
+            reg (32): 0x7908000,2000; 0x7904000,4000
+            AAPL,phandle (4): 0x64
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            smmu-options (4): 0x3
+            dart-options (4): 0x5
+            fetch-config (4): 0xe0303
+            diag-config (4): 0x100
+            power-gates (4): 0x21
+            smmu-present (4): 0x1
+            stt-idx-width (4): 0xa
+            name (12): "dart-scaler"
+            mapper-scaler:
+                tail-padding (4): 0x1
+                compatible (13): "iommu-mapper"
+                AAPL,phandle (4): 0x65
+                iomd-cache-ttl (4): 0x7d0
+                iomd-cache-size (4): 0x40
+                device_type (12): "dart-mapper"
+                name (14): "mapper-scaler"
+                reg (4): 0
+        jpeg0:
+            compatible (25): "jpeg,t8010\0jpeg,s5l8920x\0"
+            iommu-parent (4): 0x68
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xc4
+            hw-type (6): "a0103"
+            clock-gates (8): 0x8c00000090
+            clock-ids (8): 0x12600000125
+            reg (16): 0x7b00000,4000
+            device_type (5): "jpeg"
+            AAPL,phandle (4): 0x66
+            power-gates (8): 0x8c00000090
+            coprovider-group (5): "jpeg"
+            name (6): "jpeg0"
+        dart-jpeg0:
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            page-size (4): 0x1000
+            interrupt-parent (4): 0x10
+            interrupts (8): 0xc6000000c5
+            clock-gates (4): 0x92
+            reg (16): 0x7b04000,4000
+            AAPL,phandle (4): 0x67
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            dart-options (4): 0x5
+            fetch-config (4): 0xe0303
+            diag-config (4): 0x100
+            power-gates (4): 0x92
+            stt-idx-width (4): 0xa
+            name (11): "dart-jpeg0"
+            mapper-jpeg0:
+                tail-padding (4): 0x2
+                compatible (13): "iommu-mapper"
+                AAPL,phandle (4): 0x68
+                dead-mappings (8): 0x10007ffff000
+                device_type (12): "dart-mapper"
+                name (13): "mapper-jpeg0"
+                reg (4): 0
+        jpeg1:
+            compatible (25): "jpeg,t8010\0jpeg,s5l8920x\0"
+            iommu-parent (4): 0x6b
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xc7
+            hw-type (6): "a0103"
+            clock-gates (4): 0x91
+            clock-ids (8): 0x12600000125
+            reg (16): 0x7b08000,4000
+            device_type (5): "jpeg"
+            AAPL,phandle (4): 0x69
+            power-gates (4): 0x91
+            coprovider-group (5): "jpeg"
+            name (6): "jpeg1"
+        dart-jpeg1:
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            page-size (4): 0x1000
+            interrupt-parent (4): 0x10
+            interrupts (8): 0xc9000000c8
+            clock-gates (4): 0x93
+            reg (16): 0x7b0c000,4000
+            AAPL,phandle (4): 0x6a
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            dart-options (4): 0x5
+            fetch-config (4): 0xe0303
+            diag-config (4): 0x100
+            power-gates (4): 0x93
+            stt-idx-width (4): 0xa
+            name (11): "dart-jpeg1"
+            mapper-jpeg1:
+                tail-padding (4): 0x2
+                compatible (13): "iommu-mapper"
+                AAPL,phandle (4): 0x6b
+                dead-mappings (8): 0x10007ffff000
+                device_type (12): "dart-mapper"
+                name (13): "mapper-jpeg1"
+                reg (4): 0
+        isp:
+            function-torch_enable (16): "\x17\0\0\0OIPG\xb0\0\0\0\x01\x01\0\0"
+            function-motion_data_param_get (8): "#\0\0\0Gtad"
+            function-saca0c (12): "\xab\0\0\0ACAS4mac"
+            function-saca1b (12): "\xab\0\0\0ACAS3mac"
+            function-saca1 (12): "\xab\0\0\0ACAS1mac"
+            interrupt-parent (4): 0x10
+            interrupts (16): 6c 00 00 00 6d 00 00 00 6e 00 00 00 6f 00 00 00
+            function-motion_data_enable (8): "#\0\0\0lbne"
+            function-saca2c (12): "\xab\0\0\0ACAS8mac"
+            has-sphere (4): 0x1
+            iommu-parent (4): 0x6e
+            face-detection-support (4): 0x1
+            camera-rear (4): 0x1
+            function-conf_isp_ref1_clk_freq (20): "\x12\0\0\0CPSI\x01\0\0\0V\x1a\xd0U\x16R\x92U"
+            clock-gates (48): 18 00 00 00 5c 00 00 00 5d 00 00 00 5e 00 00 00 86 00 00 00 80 00 00 00 81 00 00 00 82 00 00 00 83 00 00 00 84 00 00 00 85 00 00 00 87 00 00 00
+            function-saca0 (12): "\xab\0\0\0ACAS0mac"
+            function-sensor_extclk2 (16): "\x17\0\0\0OIPGF\0\0\0\x01\x01\0\x02"
+            function-motion_data_param_set (8): "#\0\0\0Stad"
+            AAPL,phandle (4): 0x6c
+            name (4): "isp"
+            power-gates (48): 18 00 00 00 5c 00 00 00 5d 00 00 00 5e 00 00 00 86 00 00 00 80 00 00 00 81 00 00 00 82 00 00 00 83 00 00 00 84 00 00 00 85 00 00 00 87 00 00 00
+            function-sensor_shutdown3 (16): "\x17\0\0\0OIPG+\0\0\0\x01\x01\0\x02"
+            function-cam_avdd_ldo (12): "N\0\0\0Lump\x12\x02\0\0"
+            function-saca0b (12): "\xab\0\0\0ACAS2mac"
+            function-sensor_shutdown (16): "\x17\0\0\0OIPGA\0\0\0\x01\x01\0\x02"
+            clock-ids (8): 0x11d0000011a
+            function-frontcam_forcepwm (16): "N\0\0\0Rump\0\0\x0f\x16\x03\x03\x02\x03"
+            function-saca1c (12): "\xab\0\0\0ACAS5mac"
+            compatible (23): "isp,t8010\0isp,s5l8960x\0"
+            function-device_reset (12): "\x12\0\0\0TSRA\x18\0\0\0"
+            function-cam_avdd_ldo3 (12): "N\0\0\0Lump\x07\x02\0\0"
+            camera-front (4): 0x1
+            function-conf_isp_ref2_clk_freq (20): "\x12\0\0\0CPSI\x02\0\0\0V\x1a\xd0U\x16R\x92U"
+            function-saca2d (12): "\xab\0\0\0ACAS9mac"
+            function-cam0_ldo (12): "N\0\0\0Lump\x11\x02\0\0"
+            function-saca2b (12): "\xab\0\0\0ACAS7mac"
+            back-camera-autofocus-recal (12): "syscfg/BCAR"
+            device_type (4): "isp"
+            function-sensor_extclk3 (16): "\x17\0\0\0OIPGH\0\0\0\x01\x01\0\x02"
+            reg (16): 0x5b00000,140000
+            sensor-type (4): 0x90
+            function-conf_isp_ref0_clk_freq (20): "\x12\0\0\0CPSI\0\0\0\0V\x1a\xd0U\x16R\x92U"
+            function-sensor_extclk (16): "\x17\0\0\0OIPGB\0\0\0\x01\x01\0\x02"
+            function-sensor_shutdown2 (16): "\x17\0\0\0OIPGE\0\0\0\x01\x01\0\x02"
+            function-saca2 (12): "\xab\0\0\0ACAS6mac"
+            function-sphere_buck_mode (16): "N\0\0\0Rump\0\0\x01\x19h\xff\xc8\xff"
+            function-cam_avdd_ldo2 (12): "N\0\0\0Lump\x1c\x02\0\0"
+        dart-isp:
+            fetch-config (4): 0xe0303
+            clock-gates (4): 0x20
+            AAPL,phandle (4): 0x6d
+            smmu-options (4): 0x2
+            dart-options (4): 0x5
+            name (9): "dart-isp"
+            interrupt-parent (4): 0x10
+            stt-idx-width (4): 0x8
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            page-size (4): 0x1000
+            interrupts (4): 0x70
+            diag-config (4): 0x100
+            manual-availability (4): 0x1
+            smmu-present (4): 0x1
+            no-fault-clients (4): 0x8
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            power-gates (4): 0x20
+            reg (32): 0x5b28000,4000; 0x5b2c000,4000
+            vm-size (4): 0x70000000
+            mapper-isp:
+                AAPL,phandle (4): 0x6e
+                compatible (13): "iommu-mapper"
+                iomd-cache-ttl (4): 0x7d0
+                iomd-cache-size (4): 0x80
+                device_type (12): "dart-mapper"
+                name (11): "mapper-isp"
+                reg (4): 0
+        ave:
+            interrupt-parent (4): 0x10
+            compatible (10): "ave,t8010"
+            AAPL,phandle (4): 0x6f
+            interrupts (20): b5 00 00 00 af 00 00 00 ae 00 00 00 b1 00 00 00 b0 00 00 00
+            iommu-parent (4): 0x71
+            clock-gates (28): 8d 00 00 00 88 00 00 00 89 00 00 00 97 00 00 00 98 00 00 00 99 00 00 00 9a 00 00 00
+            power-gates (28): 8d 00 00 00 88 00 00 00 89 00 00 00 97 00 00 00 98 00 00 00 99 00 00 00 9a 00 00 00
+            clock-ids (4): 0x122
+            device_type (4): "ave"
+            name (4): "ave"
+            reg (64): 0x7d00000,300000; 0x7c80000,80000; 0x7cc0000,1000; 0xe088000,4000
+        dart-ave:
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            iommu-parent (4): 0x71
+            interrupt-parent (4): 0x10
+            interrupts (8): 0xb2000000b3
+            clock-gates (4): 0x24
+            page-size (4): 0x1000
+            reg (32): 0x7c30000,4000; 0x7c20000,4000
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            smmu-options (4): 0x2
+            AAPL,phandle (4): 0x70
+            dart-options (4): 0x5
+            fetch-config (4): 0xe0303
+            diag-config (4): 0x100
+            power-gates (4): 0x24
+            smmu-present (4): 0x1
+            stt-idx-width (4): 0xb
+            disable-perf-counters (0)
+            name (9): "dart-ave"
+            mapper-ave:
+                tail-padding (4): 0x1
+                compatible (13): "iommu-mapper"
+                AAPL,phandle (4): 0x71
+                iomd-cache-ttl (4): 0x7d0
+                iomd-cache-size (4): 0x40
+                device_type (12): "dart-mapper"
+                name (11): "mapper-ave"
+                reg (4): 0
+        vxd:
+            compatible (23): "vxd,t8010\0vxd,s5l8920x\0"
+            clock-ids (4): 0x121
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xac
+            clock-gates (8): 0x8a00000077
+            reg (32): 0x8100000,30000; 0x8130000,1000
+            vxd-version (4): 0xa
+            AAPL,phandle (4): 0x72
+            device_type (4): "vxd"
+            h264-playback-level (4): 0x2a
+            power-gates (8): 0x8a00000077
+            allow-oold (4): 0
+            name (4): "vxd"
+        sgx:
+            gpu-pwr-perf-scale2 (4): 0x3fa72f05
+            gpu-num-perf-states (4): 0x2
+            gpu-pwr-calc-coeff1 (4): 0x4311d8a9
+            gpu-pwr-calc-static (4): 0x430f0c96
+            gpu-perf-tgt-utilization (4): 0x5f
+            gpu-pwr-integral-min-clamp (4): 0
+            perf-states (128): ""
+            gpu-pwr-filter-time-constant (4): 0x139
+            interrupt-parent (4): 0x10
+            gpu-pwr-integral-gain (4): 0x3ca59586
+            interrupts (20): b9 00 00 00 ba 00 00 00 bb 00 00 00 bc 00 00 00 c1 00 00 00
+            has-kf (4): 0x1
+            gpu-perf-filter-drop-threshold (4): 0
+            gpu-power-sample-period (4): 0x10
+            gpu-pwr-perf-scale0 (4): 0
+            meta-sw-interrupt (20): 18 40 10 0e 02 00 00 00 98 40 10 0e 02 00 00 00 02 00 00 00
+            procedural-antialiasing (0)
+            gpu-perf-integral-gain (4): 0x3ffca971
+            clock-gates (8): 0x9600000094
+            gpu-perf-integral-min-clamp (4): 0
+            gpu-perf-filter-time-constant2 (4): 0x32
+            gpu-pwr-perf-scale3 (4): 0x3fdd19b4
+            gpu-pwr-calc-coeff2 (4): "M\xd9y@"
+            gpu-pwr-min-duty-cycle (4): 0x28
+            perf-state-count (4): 0
+            AAPL,phandle (4): 0x73
+            name (4): "sgx"
+            opengl-standard (4): 0x300
+            power-gates (8): 0x9600000094
+            gpu-device-max-power (4): 0x1428
+            gpu-pwr-perf-scale1 (4): 0x3f800000
+            clock-ids (4): 0x109
+            gfx-qos (8): 0x100000001
+            device_type (4): "sgx"
+            gpu-perf-integral-gain2 (4): "!!J>"
+            gpu-pwr-calc-coeff0 (4): 0x40d67ca1
+            gpu-perf-proportional-gain2 (4): 0x40db53d0
+            compatible (10): "gpu,t8010"
+            gpu-pwr-perf-scale4 (4): 0x400a9108
+            metal-standard (4): 0x100
+            reg (32): 0x1000000,100000; 0x1d00000,20000
+            gpu-pwr-proportional-gain (4): 0x40a90fdb
+            gpu-perf-filter-time-constant (4): 0x5
+            gpu-perf-proportional-gain (4): 0x40db53d2
+        gfx-kf:
+            compatible (14): "iop-gfx,t8010"
+            clock-ids (4): 0x109
+            interrupt-parent (4): 0x10
+            reg (32): 0x1d20000,10000; 0x1d00000,20000
+            interrupts (16): be 00 00 00 bd 00 00 00 c0 00 00 00 bf 00 00 00
+            clock-gates (4): 0x95
+            force-timebase-sync (0)
+            AAPL,phandle (4): 0x74
+            iop-version (4): 0x1
+            device_type (7): "gfx-kf"
+            power-gates (4): 0x95
+            role (4): "GFX"
+            name (7): "gfx-kf"
+            iop-gfx-nub:
+                AAPL,phandle (4): 0x75
+                compatible (16): "iop-nub,rtbuddy"
+                firmware-name (4): "GFX"
+                coredump-enable (4): 0x20
+                no-firmware-service (0)
+                name (12): "iop-gfx-nub"
+                power-managed (5): "true"
+        i2s-switch:
+            AAPL,phandle (4): 0x76
+            compatible (17): "i2s-switch,t8010"
+            device_type (11): "i2s-switch"
+            name (11): "i2s-switch"
+            reg (16): 0xa004000,1000
+        aop-i2s-switch:
+            aop_i2s_oe_reg_val (4): 0x8
+            compatible (21): "aop-i2s-switch,t8010"
+            reg-defaults (16): 0x0,8080800000002
+            reg (32): 0x10540000,1000; 0x10000600,4
+            name (15): "aop-i2s-switch"
+            AAPL,phandle (4): 0x77
+        mca0:
+            dma-coherent (4): 0
+            compatible (23): "mca,t8010\0mca,s5l8950x\0"
+            function-mclk_frequency (12): "\x15\0\0\0fOCN\0\0\0\0"
+            function-i2s_route_aop (20): "w\0\0\0Rs2i1acm0nip\x03\x03\x03\0"
+            function-i2s_route (20): "v\0\0\0Rs2i0dua4nip\x03\x03\x03\0"
+            dma-channels (128): "(\0\0\0!\0\0\0\0\0\0\0\0\x03\0\0\x80\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0)\0\0\0!\0\0\0\0\0\0\0\0\x03\0\0\x80\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0(\0\0\0\"\0\0\0\0\0\0\0\0\x03\0\0\x80\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0)\0\0\0\"\0\0\0\0\0\0\0\0\x03\0\0\x80\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x40
+            interrupt-parent (4): 0x10
+            interrupts (4): 0xe3
+            device_type (4): "i2s"
+            #size-cells (4): 8
+            reg (32): 0xa0a0000,4000; 0xa002000,4
+            AAPL,phandle (4): 0x78
+            #address-cells (4): 0
+            dma-parent (4): 0x32
+            mca-version (4): 0x5
+            name (5): "mca0"
+            audio-codec:
+                AAPL,phandle (4): 0x79
+                compatible (19): "audio-data,cs42l71"
+                device_type (11): "audio-data"
+                name (12): "audio-codec"
+                reg (36): 10 13 00 00 04 00 01 00 00 1b b7 00 00 00 01 00 30 00 01 00 0f 00 00 00 0f 00 00 00 04 04 10 10 00 00 00 00
+        mca1:
+            dma-coherent (4): 0
+            compatible (23): "mca,t8010\0mca,s5l8950x\0"
+            function-mclk_frequency (12): "\x15\0\0\0fOCN\x01\0\0\0"
+            interrupt-parent (4): 0x10
+            function-i2s_route (20): "v\0\0\0Rs2i1dua2nip\x03\x03\x03\0"
+            dma-channels (128): "*\0\0\0!\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0+\0\0\0!\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0*\0\0\0\"\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0+\0\0\0\"\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x41
+            interrupts (4): 0xe4
+            reg (32): 0xa0a4000,4000; 0xa002004,4
+            device_type (4): "i2s"
+            #size-cells (4): 8
+            AAPL,phandle (4): 0x7a
+            #address-cells (4): 0
+            dma-parent (4): 0x32
+            mca-version (4): 0x5
+            isVirtual (0)
+            name (5): "mca1"
+            virtual-mca1:
+                compatible (12): "virtual-mca"
+                isVirtual (0)
+                device_type (4): "i2s"
+                name (13): "virtual-mca1"
+                AAPL,phandle (4): 0x7b
+                virtual-mca1a:
+                    compatible (23): "virtual-mca-controller"
+                    dma-channels (128): 2a 00 00 00 21 00 00 00 00 00 00 00 20 01 00 00 90 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 2b 00 00 00 21 00 00 00 00 00 00 00 a0 02 00 00 18 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2a 00 00 00 22 00 00 00 00 00 00 00 20 01 00 00 90 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 2b 00 00 00 22 00 00 00 00 00 00 00 a0 02 00 00 18 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                    dma-parent (4): 0x32
+                    device_type (4): "i2s"
+                    name (14): "virtual-mca1a"
+                    AAPL,phandle (4): 0x7c
+                    audio-speaker-top:
+                        AAPL,phandle (4): 0x7d
+                        compatible (19): "audio-data,cs35l26"
+                        device_type (11): "audio-data"
+                        name (18): "audio-speaker-top"
+                        reg (36): 00 12 00 00 0f 10 01 00 00 00 00 00 fa 00 01 00 30 00 01 00 03 00 00 00 3e 00 00 00 02 05 10 10 00 00 00 00
+                virtual-mca1b:
+                    compatible (23): "virtual-mca-controller"
+                    dma-channels (128): 52 00 00 00 21 00 00 00 00 00 00 00 20 01 00 00 90 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 53 00 00 00 21 00 00 00 00 00 00 00 a0 02 00 00 18 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 52 00 00 00 22 00 00 00 00 00 00 00 20 01 00 00 90 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 53 00 00 00 22 00 00 00 00 00 00 00 a0 02 00 00 18 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                    dma-parent (4): 0x32
+                    device_type (4): "i2s"
+                    name (14): "virtual-mca1b"
+                    AAPL,phandle (4): 0x7e
+                    maggie-arc:
+                        AAPL,phandle (4): 0x7f
+                        compatible (22): "audio-data,maggie-arc"
+                        device_type (11): "audio-data"
+                        name (11): "maggie-arc"
+                        reg (36): 00 12 00 00 0f 10 01 00 00 00 00 00 fa 00 01 00 30 00 01 00 04 00 00 00 00 00 00 00 01 00 10 10 00 00 00 00
+        mca2:
+            dma-coherent (4): 0
+            compatible (23): "mca,t8010\0mca,s5l8950x\0"
+            function-mclk_frequency (12): "\x15\0\0\0fOCN\x02\0\0\0"
+            interrupt-parent (4): 0x10
+            function-i2s_route (20): "v\0\0\0Rs2i2dua2nip\x03\x03\x03\0"
+            dma-channels (128): ",\0\0\0!\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0-\0\0\0!\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0,\0\0\0\"\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0-\0\0\0\"\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x42
+            interrupts (4): 0xe5
+            reg (32): 0xa0a8000,4000; 0xa002008,4
+            device_type (4): "i2s"
+            #size-cells (4): 8
+            AAPL,phandle (4): 0x80
+            #address-cells (4): 0
+            dma-parent (4): 0x32
+            mca-version (4): 0x5
+            isVirtual (0)
+            name (5): "mca2"
+            virtual-mca2:
+                compatible (12): "virtual-mca"
+                isVirtual (0)
+                device_type (4): "i2s"
+                name (13): "virtual-mca2"
+                AAPL,phandle (4): 0x81
+                virtual-mca2a:
+                    compatible (23): "virtual-mca-controller"
+                    dma-channels (128): ",\0\0\0!\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0-\0\0\0!\0\0\0\0\0\0\0`\x03\0\0\xb0\x01\0\0\x02\0\0\0\0\0\0\0\0\0\0\0,\0\0\0\"\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0-\0\0\0\"\0\0\0\0\0\0\0`\x03\0\0\xb0\x01\0\0\x04\0\0\0\0\0\0\0\0\0\0\0"
+                    dma-parent (4): 0x32
+                    device_type (4): "i2s"
+                    name (14): "virtual-mca2a"
+                    AAPL,phandle (4): 0x82
+                    audio-codec-hawking:
+                        AAPL,phandle (4): 0x83
+                        compatible (19): "audio-data,hawking"
+                        data-sources (26): 68 32 70 61 01 00 08 00 00 00 01 00 00 00 00 00 80 bb 00 00 43 6f 64 65 63 00
+                        registerWithPrimary (0)
+                        device_type (11): "audio-data"
+                        name (20): "audio-codec-hawking"
+                        reg (36): 00 12 00 00 0f 10 01 00 00 00 00 00 fa 00 01 00 30 00 01 00 00 00 00 00 40 00 00 00 00 01 10 10 00 00 00 00
+                virtual-mca2b:
+                    compatible (23): "virtual-mca-controller"
+                    dma-channels (128): "T\0\0\0!\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0U\0\0\0!\0\0\0\0\0\0\0`\x03\0\0\xb0\x01\0\0\x10\0\0\0\0\0\0\0\0\0\0\0T\0\0\0\"\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0U\0\0\0\"\0\0\0\0\0\0\0`\x03\0\0\xb0\x01\0\0 \0\0\0\0\0\0\0\0\0\0\0"
+                    dma-parent (4): 0x32
+                    device_type (4): "i2s"
+                    name (14): "virtual-mca2b"
+                    AAPL,phandle (4): 0x84
+                    audio-codec-reference:
+                        AAPL,phandle (4): 0x85
+                        compatible (21): "audio-data,reference"
+                        data-sources (26): 78 32 70 61 80 00 08 00 09 00 01 00 00 00 00 00 80 bb 00 00 43 6f 64 65 63 00
+                        registerWithPrimary (0)
+                        ignoreDataSourceCount (0)
+                        device_type (11): "audio-data"
+                        name (22): "audio-codec-reference"
+                        reg (36): 00 12 00 00 0f 10 01 00 00 00 00 00 fa 00 01 00 30 00 01 00 00 00 00 00 80 7f 00 00 00 08 10 10 00 00 00 00
+                    audio-maggie-debug:
+                        AAPL,phandle (4): 0x86
+                        compatible (24): "audio-data,maggie-debug"
+                        data-sources (27): 6d 32 70 61 80 00 08 00 00 00 01 00 00 00 00 00 80 bb 00 00 4d 61 67 67 69 65 00
+                        registerWithPrimary (0)
+                        device_type (11): "audio-data"
+                        name (19): "audio-maggie-debug"
+                        reg (36): 00 12 00 00 0f 10 01 00 00 00 00 00 fa 00 01 00 30 00 01 00 00 00 00 00 80 7f 00 00 00 08 10 10 00 00 00 00
+        mca3:
+            dma-coherent (4): 0
+            compatible (23): "mca,t8010\0mca,s5l8950x\0"
+            function-mclk_frequency (12): "\x15\0\0\0fOCN\x03\0\0\0"
+            interrupt-parent (4): 0x10
+            function-i2s_route (20): "v\0\0\0Rs2i3dua3nip\x03\x03\x03\0"
+            dma-channels (128): ".\0\0\0!\0\0\0\0\0\0\0@\0\0\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\0/\0\0\0!\0\0\0\0\0\0\0@\0\0\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\0.\0\0\0\"\0\0\0\0\0\0\0@\0\0\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\0/\0\0\0\"\0\0\0\0\0\0\0@\0\0\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x43
+            interrupts (4): 0xe6
+            reg (32): 0xa0ac000,4000; 0xa00200c,4
+            device_type (4): "i2s"
+            #size-cells (4): 8
+            AAPL,phandle (4): 0x87
+            #address-cells (4): 0
+            dma-parent (4): 0x32
+            mca-version (4): 0x5
+            name (5): "mca3"
+            audio-baseband-voice:
+                reg (36): 00 00 00 00 02 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 03 00 00 00 02 02 10 10 00 00 00 00
+                compatible (26): "audio-data,baseband-voice"
+                AAPL,phandle (4): 0x88
+                data-sources (37): "b2pa\x01\x01\0\0\0\0\x02\0\0\0\0\0@\x1f\0\0\0\0\0\0\x80>\0\0Baseband\0"
+                device_type (11): "audio-data"
+                clock-sources (32): "w2bb\0\0\0\0Baseband\0Ms2i\x01\0\0\0System\0"
+                name (21): "audio-baseband-voice"
+        mca4:
+            dma-coherent (4): 0
+            compatible (23): "mca,t8010\0mca,s5l8950x\0"
+            function-mclk_frequency (12): "\x15\0\0\0fOCN\x04\0\0\0"
+            interrupt-parent (4): 0x10
+            function-i2s_route (20): "v\0\0\0Rs2i4dua0nip\x03\x03\x03\0"
+            dma-channels (128): "0\0\0\0!\0\0\0\0\0\0\0\x80\x01\0\0\xc0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\01\0\0\0!\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\00\0\0\0\"\0\0\0\0\0\0\0\x80\x01\0\0\xc0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\01\0\0\0\"\0\0\0\0\0\0\0\xcc\0\0\0\xac\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+            clock-gates (4): 0x44
+            interrupts (4): 0xe7
+            reg (32): 0xa0b0000,4000; 0xa002010,4
+            device_type (4): "i2s"
+            #size-cells (4): 8
+            AAPL,phandle (4): 0x89
+            #address-cells (4): 0
+            dma-parent (4): 0x32
+            mca-version (4): 0x5
+            name (5): "mca4"
+            audio-codec-voice:
+                AAPL,phandle (4): 0x8a
+                compatible (30): "audio-data,mikeybus-secondary"
+                data-sources (90): 76 32 70 61 80 80 08 00 09 00 09 00 00 00 00 00 40 1f 00 00 00 00 00 00 11 2b 00 00 00 00 00 00 e0 2e 00 00 00 00 00 00 80 3e 00 00 00 00 00 00 22 56 00 00 00 00 00 00 c0 5d 00 00 00 00 00 00 00 7d 00 00 00 00 00 00 44 ac 00 00 00 00 00 00 80 bb 00 00 43 6f 64 65 63 00
+                registerWithPrimary (0)
+                device_type (11): "audio-data"
+                name (18): "audio-codec-voice"
+                reg (36): 01 12 00 00 08 00 01 00 00 1b b7 00 00 00 10 00 30 00 01 00 ff 00 00 00 ff 00 00 00 08 08 10 10 00 00 00 00
+        apcie:
+            #msi-vectors (4): 32
+            power-gates (4): 0x38
+            reg (192): 0x610000000,1000000; 0x601000000,4000; 0x601004000,4000; 0x602000000,4000; 0x602004000,4000; 0x603000000,4000; 0x603004000,4000; 0x604000000,4000; 0x604004000,4000; 0x600000000,8000; 0x600008000,4000; 0x60a000000,40000
+            clock-gates (12): 38 00 00 00 39 00 00 00 3a 00 00 00
+            #address-cells (4): 3
+            no-phy-power-gating (0)
+            AAPL,phandle (4): 0x8b
+            msi-vector-offset (4): 0x120
+            pci-aer-correctable (4): 0
+            bus-range (8): 0x800000000
+            lane-cfg (4): 0
+            function-debug_gpio (16): "\x17\0\0\0OIPG\xce\0\0\0\x01\x01\0\0"
+            name (6): "apcie"
+            perst-to-refclk-delay-us (4): 0x3c
+            interrupt-parent (4): 0x10
+            dev-range (8): 0xff00000000
+            compatible (12): "apcie,t8010"
+            interrupts (16): 0e 01 00 00 11 01 00 00 14 01 00 00 17 01 00 00
+            msi-address (8): 0xbffff000
+            pci-aer-uncorrectable (4): 0x1
+            ranges (56): 00 00 00 43 00 00 00 20 06 00 00 00 00 00 00 20 06 00 00 00 00 00 00 a0 01 00 00 00 00 00 00 02 00 00 00 c0 00 00 00 00 00 00 00 c0 07 00 00 00 00 00 00 40 00 00 00 00
+            #ports (4): 4
+            link-state-power (16): ""
+            device_type (4): "pci"
+            #size-cells (4): 2
+            msi-parent-controller (4): 0x10
+            no-l2-config-access (0)
+            pci-bridge0:
+                name (12): "pci-bridge0"
+                function-dart_force_active (8): "\x93\0\0\0tcaF"
+                msi-vector-base (4): 0
+                nvme-mode (0)
+                pci-l1pm-control (8): 0x4055000f
+                function-nvme_mmu_force_active (8): "\x92\0\0\0tcaF"
+                AAPL,unit-string (9): "00000000"
+                t-refclk-to-perst (4): 0x64
+                AAPL,phandle (4): 0x8c
+                clkreq-wait-time (4): 0x64
+                #size-cells (4): 0
+                function-clkreq (16): "\x17\0\0\0OIPG\x10\0\0\0\x02\0\0\0"
+                maximum-link-speed (4): 0x3
+                #address-cells (4): 1
+                function-perst (16): "\x17\0\0\0OIPG\x0c\0\0\0\0\0\0\0"
+                allow-endpoint-reset (0)
+                apcie-port (4): 0
+                #msi-vectors (4): 8
+                s3e:
+                    pci-l1pm-control (8): 0x4055000f
+                    #address-cells (4): 1
+                    AAPL,phandle (4): 0x8d
+                    icc-20us-ma (4): 0x2e4
+                    AAPL,unit-string (9): "00000000"
+                    pci-phy-tx-eq (4): 0
+                    vcc-mv (4): 0xb6d
+                    icc-1us-ma (4): 0x44c
+                    icc-5us-ma (4): 0x384
+                    pci-aspm-default (4): 0x2
+                    disable-pcie-phy-override (4): 0
+                    iommu-parent (12): 94 00 00 00 94 00 00 00 92 00 00 00
+                    function-pcie_port_control (12): "\x8b\0\0\0CtrP\x8c\0\0\0"
+                    name (4): "s3e"
+                    namespaces (84): 01 00 00 00 01 00 00 00 00 00 00 00 02 00 00 00 02 00 00 00 00 08 00 00 03 00 00 00 03 00 00 00 20 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 05 00 00 00 05 00 00 00 02 00 00 00 06 00 00 00 06 00 00 00 01 00 00 00 07 00 00 00 08 00 00 00 00 01 00 00
+                    function-boot_from_host (16): "\x17\0\0\0OIPG\xa5\0\0\0\x01\x01\0\0"
+                    pci-phy-rx-eq (4): 0
+                    pci-max-latency (4): 0x10081008
+                    nvme-scratch-virt-region (16): ""
+                    icc-duration-idx (4): 0x1
+                    imp-mohm (4): 0xad
+                    indirection-size (4): 0x8
+                    device_type (12): "pcie-device"
+                    #size-cells (4): 0
+                    write-perf-mlc-mbps (4): 0
+                    write-perf-tlc-mbps (4): 0
+            pci-bridge2:
+                apcie-port (4): 0x2
+                function-dart_force_active (8): "\x95\0\0\0tcaF"
+                manual-enable-s2r (0)
+                msi-vector-base (4): 0x10
+                name (12): "pci-bridge2"
+                pci-wake-l1pm-disable (0)
+                AAPL,unit-string (9): "00020000"
+                t-refclk-to-perst (4): 0x64
+                AAPL,phandle (4): 0x8e
+                pci-l1pm-control-postrom (8): 0x4055000f
+                maximum-link-speed (4): 0x1
+                #size-cells (4): 0
+                function-clkreq (16): "\x17\0\0\0OIPG\x12\0\0\0\x02\0\0\0"
+                #address-cells (4): 1
+                function-perst (16): "\x17\0\0\0OIPG\x0e\0\0\0\0\0\0\0"
+                pci-l1pm-control (8): 0x40550000
+                manual-enable (0)
+                #msi-vectors (4): 8
+                baseband-pcie:
+                    pci-aspm-default (4): 0x2
+                    iommu-parent (4): 0x96
+                    AAPL,phandle (4): 0x8f
+                    AAPL,unit-string (9): "00000000"
+                    pci-l1pm-control-postrom (8): 0x4055000f
+                    pci-max-latency (4): 0x10081008
+                    device_type (12): "pcie-device"
+                    #size-cells (4): 0
+                    #address-cells (4): 1
+                    pci-l1pm-control (8): 0x40550000
+                    pci-wake-l1pm-disable (0)
+                    name (14): "baseband-pcie"
+            pci-bridge3:
+                apcie-port (4): 0x3
+                function-dart_force_active (8): "\x97\0\0\0tcaF"
+                msi-vector-base (4): 0x18
+                name (12): "pci-bridge3"
+                t-refclk-to-perst (4): 0x64
+                AAPL,phandle (4): 0x90
+                AAPL,unit-string (9): "00030000"
+                function-device_wake (16): "\x17\0\0\0OIPGX\0\0\0\x01\x01\0\0"
+                maximum-link-speed (4): 0x1
+                #size-cells (4): 0
+                function-clkreq (16): "\x17\0\0\0OIPG\x13\0\0\0\x02\0\0\0"
+                #address-cells (4): 1
+                function-perst (16): "\x17\0\0\0OIPG\x0f\0\0\0\0\0\0\0"
+                pci-l1pm-control (8): 0x104055000f
+                manual-enable (0)
+                #msi-vectors (4): 8
+                wlan:
+                    pci-l1pm-control (8): 0x104055000f
+                    compatible (32): "wlan-pcie,bcm4350\0wlan-pcie,bcm\0"
+                    AAPL,unit-string (9): "00000000"
+                    pci-aspm-default (4): 0x2
+                    pci-max-latency (4): 0x10081008
+                    AAPL,phandle (4): 0x91
+                    iommu-parent (4): 0x98
+                    #address-cells (4): 1
+                    #size-cells (4): 0
+                    device_type (12): "pcie-device"
+                    name (5): "wlan"
+        nvme-mmu0:
+            sart-region (16): ""
+            sart-virtual-base (4): 0xbc000000
+            compatible (30): "nvme-mmu,t8010\0nvme-mmu,s8000\0"
+            interrupt-parent (4): 0x10
+            interrupts (4): 0x110
+            reg (16): 0x601004000,4000
+            tags (4): 0x24
+            AAPL,phandle (4): 0x92
+            virtual-base (4): 0x40000000
+            device_type (9): "nvme-mmu"
+            sgl-entries (4): 0x100
+            name (10): "nvme-mmu0"
+        dart-apcie0:
+            vm-size (4): 0x3c000000
+            manual-availability (4): 0x1
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            page-size (4): 0x1000
+            interrupt-parent (4): 0x10
+            interrupts (4): 0x10f
+            reg (16): 0x601008000,4000
+            vm-offset (8): 0x800000080000000
+            AAPL,phandle (4): 0x93
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            dart-options (4): 0x7
+            fetch-config (4): 0xe0303
+            diag-config (4): 0x100
+            pte-protection-override (4): 0
+            name (12): "dart-apcie0"
+            stt-idx-width (4): 0xa
+            mapper-apcie0:
+                AAPL,phandle (4): 0x94
+                compatible (13): "iommu-mapper"
+                device_type (12): "dart-mapper"
+                name (14): "mapper-apcie0"
+                reg (4): 0
+        dart-apcie2:
+            manual-availability (4): 0x1
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            page-size (4): 0x1000
+            interrupt-parent (4): 0x10
+            interrupts (4): 0x115
+            reg (16): 0x603008000,4000
+            vm-offset (8): 0x800000080000000
+            AAPL,phandle (4): 0x95
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            dart-options (4): 0x7
+            fetch-config (4): 0xe0303
+            diag-config (4): 0x100
+            stt-idx-width (4): 0xa
+            name (12): "dart-apcie2"
+            vm-size (4): 0x3ffff000
+            mapper-apcie2:
+                AAPL,phandle (4): 0x96
+                compatible (13): "iommu-mapper"
+                device_type (12): "dart-mapper"
+                name (14): "mapper-apcie2"
+                reg (4): 0
+        dart-apcie3:
+            manual-availability (4): 0x1
+            compatible (25): "dart,t8010\0dart,s5l8960x\0"
+            page-size (4): 0x1000
+            interrupt-parent (4): 0x10
+            interrupts (4): 0x118
+            reg (16): 0x604008000,4000
+            vm-offset (8): 0x800000080000000
+            AAPL,phandle (4): 0x97
+            error-reflector (16): 00 c0 ff 0f 02 00 00 00 00 c0 ff 0f 02 00 00 00
+            device_type (5): "dart"
+            dart-options (4): 0x7
+            fetch-config (4): 0xe0303
+            diag-config (4): 0x100
+            stt-idx-width (4): 0xa
+            name (12): "dart-apcie3"
+            vm-size (4): 0x3ffff000
+            mapper-apcie3:
+                AAPL,phandle (4): 0x98
+                compatible (13): "iommu-mapper"
+                device_type (12): "dart-mapper"
+                name (14): "mapper-apcie3"
+                reg (4): 0
+        amc:
+            CH2RNKCFG1 (4): 0x450
+            CH0RNKCFG1 (4): 0x40c
+            compatible (43): "amctempsensor,t8010\0amctempsensor,s5l8960x\0"
+            AAPL,phandle (4): 0x99
+            reg (16): 0x0,1000
+            CH2RNKCFG0 (4): 0x44c
+            CH3RNKCFG1 (4): 0x458
+            device_type (11): "tempsensor"
+            CH1RNKCFG1 (4): 0x414
+            CH0RNKCFG0 (4): 0x408
+            odts_mapping (4): 0x440
+            location-name (9): "AMC ODTS"
+            odts (4): 0x43c
+            CH3RNKCFG0 (4): 0x454
+            location-id (4): "s6CT"
+            name (4): "amc"
+            CH1RNKCFG0 (4): 0x410
+        sochot0:
+            skip-trip-temp-config (4): 0x1
+            compatible (16): "sochot,s5l8955x"
+            interrupt-parent (4): 0x10
+            interrupts (4): 0x1e
+            assert_count_0 (4): 0x20
+            assert-count-value-0 (4): 0
+            reg (64): 0xe0c4000,1000; 0xe0c0000,1000; 0x2f34000,1000; 0x102bc000,4000
+            sochot_ctl (4): 0
+            device_type (7): "sochot"
+            deassert_count_0 (4): 0x24
+            assert-count-value-1 (4): 0
+            failsafe_ctrl (4): 0x40d3f
+            assert_count_1 (4): 0x28
+            location-name (12): "PMGR sochot"
+            temp_sensor_sochot_debug_hack (4): 0x5
+            AAPL,phandle (4): 0x9a
+            name (8): "sochot0"
+            deassert_count_1 (4): 0x2c
+        sochot1:
+            deassert_count_0 (4): 0xb0
+            failsafe_ctrl (4): 0x3f
+            trip_temp_0 (4): 0x90
+            trip_temp_1 (4): 0x98
+            AAPL,phandle (4): 0x9b
+            location-name (11): "ACC sochot"
+            assert_count_0 (4): 0xa0
+            reg-64-bit (4): 0x1
+            name (8): "sochot1"
+            deassert_count_1 (4): 0xb8
+            compatible (16): "sochot,s5l8955x"
+            sochot_temp1 (4): 0x7d
+            sochot_temp0 (4): 0x78
+            assert-count-value-0 (4): 0
+            sochot_ctl (4): 0x80
+            assert-count-value-1 (4): 0
+            use_int (4): 0
+            device_type (7): "sochot"
+            assert_count_1 (4): 0xa8
+            reg (16): 0x2f30000,1000
+        tempsensor0:
+            sensor-offset-CTL2 (4): 0xc
+            location-id (4): "i0hT"
+            AAPL,phandle (4): 0x9c
+            sensor-AvgMax (4): 0x1
+            sensor-offset-CTL1 (4): 0x8
+            location-name (26): "PMGR SOC Die Temp Sensor0"
+            sensor-offset-status (4): 0x10
+            sensor-offset-readSum (4): 0x18
+            reg-64-bit (4): 0
+            sensor-accuracy (4): 0x2
+            alarm-temp (4): 0x64
+            name (12): "tempsensor0"
+            interrupt-parent (4): 0x10
+            sensor-offset-readBK (4): 0x4000
+            sensor-offset-alarm0 (4): 0x2c
+            sensor-offset-readCnt (4): 0x1c
+            sensor-offset-alarm1 (4): 0x30
+            compatible (17): "tempsensor,t8010"
+            interrupts (4): 0x9
+            sensor-offset-alarm2 (4): 0x34
+            sensor-offset-alarm3 (4): 0x38
+            sensor-offset-readBK1 (4): 0x4004
+            device_type (11): "tempsensor"
+            sensor-offset-CTL0-set (4): 0
+            reg (16): 0xe0bc000,8000
+            sensor-offset-CTL0-clr (4): 0x4
+        tempsensor1:
+            sensor-offset-CTL2 (4): 0x10c
+            location-id (4): "i1hT"
+            AAPL,phandle (4): 0x9d
+            sensor-AvgMax (4): 0x1
+            sensor-offset-CTL1 (4): 0x108
+            location-name (26): "PMGR SOC Die Temp Sensor1"
+            sensor-offset-status (4): 0x110
+            sensor-offset-readSum (4): 0x118
+            reg-64-bit (4): 0
+            sensor-accuracy (4): 0x2
+            alarm-temp (4): 0x64
+            name (12): "tempsensor1"
+            interrupt-parent (4): 0x10
+            sensor-offset-readBK (4): 0x4010
+            sensor-offset-alarm0 (4): 0x12c
+            sensor-offset-readCnt (4): 0x11c
+            sensor-offset-alarm1 (4): 0x130
+            compatible (17): "tempsensor,t8010"
+            interrupts (4): 0xb
+            sensor-offset-alarm2 (4): 0x134
+            sensor-offset-alarm3 (4): 0x138
+            sensor-offset-readBK1 (4): 0x4014
+            device_type (11): "tempsensor"
+            sensor-offset-CTL0-set (4): 0x100
+            reg (16): 0xe0bc000,8000
+            sensor-offset-CTL0-clr (4): 0x104
+        tempsensor2:
+            sensor-offset-CTL2 (4): 0x20c
+            location-id (4): "i2hT"
+            AAPL,phandle (4): 0x9e
+            sensor-AvgMax (4): 0x1
+            sensor-offset-CTL1 (4): 0x208
+            location-name (26): "PMGR SOC Die Temp Sensor2"
+            sensor-offset-status (4): 0x210
+            sensor-offset-readSum (4): 0x218
+            reg-64-bit (4): 0
+            sensor-accuracy (4): 0x2
+            alarm-temp (4): 0x64
+            name (12): "tempsensor2"
+            interrupt-parent (4): 0x10
+            sensor-offset-readBK (4): 0x4020
+            sensor-offset-alarm0 (4): 0x22c
+            sensor-offset-readCnt (4): 0x21c
+            sensor-offset-alarm1 (4): 0x230
+            compatible (17): "tempsensor,t8010"
+            interrupts (4): 0xd
+            sensor-offset-alarm2 (4): 0x234
+            sensor-offset-alarm3 (4): 0x238
+            sensor-offset-readBK1 (4): 0x4024
+            device_type (11): "tempsensor"
+            sensor-offset-CTL0-set (4): 0x200
+            reg (16): 0xe0bc000,8000
+            sensor-offset-CTL0-clr (4): 0x204
+        tempsensor3:
+            sensor-offset-CTL2 (4): 0x10
+            location-id (4): "i0cT"
+            AAPL,phandle (4): 0x9f
+            sensor-AvgMax (4): 0x1
+            sensor-offset-CTL1 (4): 0x8
+            location-name (17): "ACC Temp Sensor0"
+            sensor-offset-status (4): 0x400
+            sensor-offset-readSum (4): 0x30
+            reg-64-bit (4): 0x1
+            sensor-accuracy (4): 0x1
+            alarm-temp (4): 0x64
+            name (12): "tempsensor3"
+            interrupt-parent (4): 0x10
+            sensor-offset-readBK (4): 0x4000
+            sensor-offset-alarm0 (4): 0x410
+            sensor-offset-readCnt (4): 0x38
+            sensor-offset-alarm1 (4): 0x418
+            compatible (17): "tempsensor,t8010"
+            interrupts (4): 0x11
+            sensor-offset-alarm2 (4): 0x420
+            sensor-offset-alarm3 (4): 0x428
+            sensor-offset-readBK1 (4): 0x4008
+            device_type (11): "tempsensor"
+            sensor-offset-CTL0-set (4): 0
+            reg (16): 0x2f30000,8000
+            sensor-offset-CTL0-clr (4): 0x408
+        tempsensor4:
+            sensor-offset-CTL2 (4): 0x50
+            location-id (4): "i1cT"
+            AAPL,phandle (4): 0xa0
+            sensor-AvgMax (4): 0x1
+            sensor-offset-CTL1 (4): 0x48
+            location-name (17): "ACC Temp Sensor1"
+            sensor-offset-status (4): 0x430
+            sensor-offset-readSum (4): 0x70
+            reg-64-bit (4): 0x1
+            sensor-accuracy (4): 0x1
+            alarm-temp (4): 0x64
+            name (12): "tempsensor4"
+            interrupt-parent (4): 0x10
+            sensor-offset-readBK (4): 0x4010
+            sensor-offset-alarm0 (4): 0x440
+            sensor-offset-readCnt (4): 0x78
+            sensor-offset-alarm1 (4): 0x448
+            compatible (17): "tempsensor,t8010"
+            interrupts (4): 0x13
+            sensor-offset-alarm2 (4): 0x450
+            sensor-offset-alarm3 (4): 0x458
+            sensor-offset-readBK1 (4): 0x4018
+            device_type (11): "tempsensor"
+            sensor-offset-CTL0-set (4): 0x40
+            reg (16): 0x2f30000,8000
+            sensor-offset-CTL0-clr (4): 0x438
+        tempsensor5:
+            sensor-offset-CTL2 (4): 0x210
+            location-id (4): "i2cT"
+            AAPL,phandle (4): 0xa1
+            sensor-AvgMax (4): 0x1
+            sensor-offset-CTL1 (4): 0x208
+            location-name (17): "ACC Temp Sensor2"
+            sensor-offset-status (4): 0x460
+            sensor-offset-readSum (4): 0x230
+            reg-64-bit (4): 0x1
+            sensor-accuracy (4): 0x1
+            alarm-temp (4): 0x64
+            name (12): "tempsensor5"
+            interrupt-parent (4): 0x10
+            sensor-offset-readBK (4): 0x4020
+            sensor-offset-alarm0 (4): 0x470
+            sensor-offset-readCnt (4): 0x238
+            sensor-offset-alarm1 (4): 0x478
+            compatible (17): "tempsensor,t8010"
+            interrupts (4): 0x15
+            sensor-offset-alarm2 (4): 0x480
+            sensor-offset-alarm3 (4): 0x488
+            sensor-offset-readBK1 (4): 0x4028
+            device_type (11): "tempsensor"
+            sensor-offset-CTL0-set (4): 0x200
+            reg (16): 0x2f30000,8000
+            sensor-offset-CTL0-clr (4): 0x468
+        dietempctl0:
+            compatible (17): "dietempctl,t8010"
+            loop-kp (4): 0x103333
+            loop-kits (4): 0x1687
+            device_type (11): "dietempctl"
+            name (12): "dietempctl0"
+            AAPL,phandle (4): 0xa2
+        vtempctl0:
+            compatible (15): "vtempctl,t8010"
+            device_type (9): "vtempctl"
+            name (10): "vtempctl0"
+            AAPL,phandle (4): 0xa3
+        cpu-debug-interface:
+            name (20): "cpu-debug-interface"
+            trace_halt (128): 00 00 04 02 00 00 00 00 00 10 00 00 00 00 00 00 08 00 01 00 00 00 00 00 01 00 08 01 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 14 02 00 00 00 00 00 10 00 00 00 00 00 00 08 00 02 00 00 00 00 00 01 00 08 01 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 f5 02 00 00 00 00 00 10 00 00 00 00 00 00 50 00 00 00 00 00 00 00 00 80 00 80 00 00 00 00
+            AAPL,phandle (4): 0xa4
+            enable_alt_trace (224): 00 00 f5 02 00 00 00 00 00 10 00 00 00 00 00 00 50 00 00 00 00 00 00 00 00 c0 00 82 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 02 00 00 00 00 00 10 00 00 00 00 00 00 08 00 01 00 00 00 00 00 05 00 00 00 00 00 00 00 08 00 01 00 00 00 00 00 03 00 08 01 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 14 02 00 00 00 00 00 10 00 00 00 00 00 00 08 00 02 00 00 00 00 00 05 00 00 00 00 00 00 00 08 00 02 00 00 00 00 00 03 00 08 01 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 f5 02 00 00 00 00 00 10 00 00 00 00 00 00 a8 00 00 00 00 00 00 00 0a 0a 00 ff 00 00 00 00 50 00 00 00 00 00 00 00 00 80 00 a5 00 00 00 00
+            enable_trace (224): 00 00 f5 02 00 00 00 00 00 10 00 00 00 00 00 00 50 00 00 00 00 00 00 00 00 c0 00 82 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 02 00 00 00 00 00 10 00 00 00 00 00 00 08 00 01 00 00 00 00 00 05 00 00 00 00 00 00 00 08 00 01 00 00 00 00 00 03 00 08 01 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 14 02 00 00 00 00 00 10 00 00 00 00 00 00 08 00 02 00 00 00 00 00 05 00 00 00 00 00 00 00 08 00 02 00 00 00 00 00 03 00 08 01 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 f5 02 00 00 00 00 00 10 00 00 00 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 50 00 00 00 00 00 00 00 00 80 00 a5 00 00 00 00
+            cpu_halt (32): 00 00 f5 02 00 00 00 00 00 10 00 00 00 00 00 00 b0 00 00 00 00 00 00 00 0f 00 00 00 00 00 00 00
+            device_type (20): "cpu-debug-interface"
+            light-em-up (96): 01 00 04 02 02 00 00 00 00 00 00 80 00 00 00 00 00 00 00 80 00 00 00 00 01 00 04 02 02 00 00 00 00 00 00 10 00 00 00 00 00 00 00 10 00 00 00 00 01 00 14 02 02 00 00 00 00 00 00 80 00 00 00 00 00 00 00 80 00 00 00 00 01 00 14 02 02 00 00 00 00 00 00 10 00 00 00 00 00 00 00 10 00 00 00 00
+        swcpt:
+            resource-config (120): 08 01 00 00 00 00 00 00 24 00 00 00 06 00 00 00 ff ff ff ff 0f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 10 00 08 01 00 00 00 00 00 00 14 03 30 0e 02 00 00 00 ff ff ff ff 0f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 10 00 08 01 00 00 00 00 00 00 80 02 30 0e 02 00 00 00 ff ff ff ff 0f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 10 00
+            compatible (12): "swcpt,t8010"
+            AAPL,phandle (4): 0xa5
+            auto-arm (0)
+            clock-gates (4): 0x6b
+            reg (16): 0xf00000,4000
+            data-req (0)
+            device_type (6): "swcpt"
+            disable-clock-gating (0)
+            restore-on-resume (0)
+            wrap-trace (0)
+            name (6): "swcpt"
+            auto-start (0)
+    buttons:
+        button-priority_hold (4): 0x1
+        button-names (28): "hold\0volup\0voldown\0ringerab\0"
+        button-priority_voldown (4): 0x2
+        AAPL,phandle (4): 0xa6
+        function-button_hold (16): "\x17\0\0\0OIPG\xb3\0\0\0\0\0\0\0"
+        function-button_volup (16): "\x17\0\0\0OIPG\x17\0\0\0\0\0\0\0"
+        button-delay_voldown (4): 0x124f8
+        function-wake_button_hold (12): "N\0\0\0TATS\xa9\x01\0\0"
+        button-priority_volup (4): 0x2
+        function-button_voldown (16): "\x17\0\0\0OIPG\xb4\0\0\0\0\0\0\0"
+        name (8): "buttons"
+        interrupt-parent (4): 0x17
+        compatible (8): "buttons"
+        interrupts (32): b3 00 00 00 05 00 00 00 17 00 00 00 05 00 00 00 b4 00 00 00 05 00 00 00 56 00 00 00 05 00 00 00
+        button-delay_hold (4): 0x124f8
+        opposed-power-vol-buttons (4): 0x1
+        button-delay_volup (4): 0x124f8
+        home-button-type (4): 0x1
+        function-button_ringerab (16): "\x17\0\0\0OIPGV\0\0\0\0\0\0\0"
+        device_type (8): "buttons"
+    dock:
+        name (5): "dock"
+        legacy-usb091216-override (0)
+        compatible (10): "dock,9pin"
+        function-acc_ext_buck_vsel (16): "\x17\0\0\0OIPG\x15\0\0\0\x01\x01\0\0"
+        function-acc_pwr (12): "N\0\0\0Lump\x05\0\0\0"
+        function-acc_sw_en (12): "N\0\0\0Lump\x05\0\0\x80"
+        function-acc_sleep_lopwr (16): "N\0\0\0Rump\0\0\0&\xb4\xff\0\xff"
+        AAPL,phandle (4): 0xa7
+        device_type (5): "dock"
+        function-acc_sleep_pwr (12): "N\0\0\0Lump!\x02\0\0"
+        function-acc_pwr_quiesce (16): "N\0\0\0Rump\x0c\0\xe1&\x08\xff\0\xff"
+        primary-port-id (4): 0x1
+        supports-trm (0)
+        function-acc_ext_buck_en (16): "N\0\0\0OIPG\x0d\0\0\0\x01\x01\0\0"
+        function-vbus_voltage (12): "O\0\0\0Vcda\0\0\0\0"
+    charger:
+        name (8): "charger"
+        usb-input-limit-calibration (17): "syscfg/CBAT/0x34"
+        usb-input-limit-max (4): 0x7d0
+        compatible (12): "charger,n88"
+        function-dock_parent (8): "\xa7\0\0\0Pcca"
+        charger-curve (4): 0x3f
+        AAPL,phandle (4): 0xa8
+        battery-family (4): 0x3
+        num-docks (4): 0x1
+        boot-adapter-id (4): 0
+        device_type (8): "charger"
+        function-battery_pack (12): "\xa7\0\0\0Acca\x0b\0\0\0"
+        charge-limits (16): 9e 07 00 00 55 05 00 00 cf 03 00 00 49 02 00 00
+        charger-sleep-interval (4): 0xe10
+        battery-id (32): ""
+        boot-voltage (4): 0
+        function-set_charger (8): "O\0\0\0grhc"
+    backlight:
+        function-backlight_update (12): "\x1a\0\0\0Biwd\x01\0\0\0"
+        display-backlight-calibration (4): 0
+        mA2Nits2ndOrderCoef (4): 0xffffffee
+        min-restriction-disableth (4): 0x12c
+        function-backlight_enable (8): "K\0\0\0Elkb"
+        nits2mAmps1stOrderCoef (4): 0x11e148
+        pre-strobe-dim-period (4): 0x64
+        LmaxProduct (4): 0x28a0000
+        LmidProduct (4): 0x9b0000
+        aab-cap-l (8): 0xffff0226012c0032
+        blr-cct-warning (4): 0xdac
+        calibratedMidCurrent (4): 0x5199a
+        pre-strobe-current (4): 0x140000
+        nits2mAmps2ndOrderCoef (4): 0x221cb
+        aab-constraint-emax (4): 0x1388
+        min-restriction-enableth (4): 0x258
+        calibratedMaxCurrent (4): 0x15cccd
+        LminProduct (4): 0x2cccc
+        nits2mAmps0thOrderCoef (4): 0x6b2
+        mA2Nits0thOrderCoef (4): 0xffffffa4
+        max-restriction-disableth (4): 0x3e8
+        AAPL,phandle (4): 0xa9
+        milliAmps2DACPart1MaxCurrent (4): 0x30000
+        backlight-marketing-table (68): cc cc 02 00 66 a6 08 00 1a 28 12 00 9e 34 20 00 78 64 33 00 80 c4 4b 00 26 3a 67 00 86 e1 82 00 00 00 9b 00 ba 79 b9 00 79 8f dd 00 97 68 08 01 60 6e 3b 01 4c 5e 79 01 a9 cd c3 01 f8 86 1d 02 00 00 8a 02
+        milliAmps2DACPart2MaxCurrent (4): 0x190000
+        backlight-id (4): 0xffffffff
+        backlight-calibration (24): "syscfg/BLCl,zeroes/0x10"
+        milliAmps2DACTablePart1 (512): 00 00 00 00 00 00 00 00 00 00 35 00 71 00 a4 00 d0 00 f7 00 19 01 39 01 55 01 70 01 88 01 9f 01 b4 01 c8 01 db 01 ed 01 fe 01 0e 02 1d 02 2c 02 3a 02 47 02 54 02 61 02 6d 02 78 02 83 02 8e 02 99 02 a3 02 ad 02 b6 02 bf 02 c8 02 d1 02 da 02 e2 02 ea 02 f2 02 fa 02 02 03 09 03 10 03 17 03 1e 03 25 03 2c 03 32 03 39 03 3f 03 45 03 4b 03 51 03 57 03 5d 03 62 03 68 03 6d 03 72 03 78 03 7d 03 82 03 87 03 8c 03 91 03 96 03 9a 03 9f 03 a4 03 a8 03 ad 03 b1 03 b6 03 ba 03 be 03 c2 03 c6 03 cb 03 cf 03 d3 03 d7 03 da 03 de 03 e2 03 e6 03 ea 03 ed 03 f1 03 f5 03 f8 03 fc 03 ff 03 03 04 06 04 09 04 0d 04 10 04 13 04 17 04 1a 04 1d 04 20 04 23 04 26 04 29 04 2c 04 2f 04 32 04 35 04 38 04 3b 04 3e 04 41 04 44 04 47 04 49 04 4c 04 4f 04 51 04 54 04 57 04 59 04 5c 04 5f 04 61 04 64 04 66 04 69 04 6b 04 6e 04 70 04 73 04 75 04 78 04 7a 04 7c 04 7f 04 81 04 83 04 86 04 88 04 8a 04 8d 04 8f 04 91 04 93 04 96 04 98 04 9a 04 9c 04 9e 04 a0 04 a2 04 a5 04 a7 04 a9 04 ab 04 ad 04 af 04 b1 04 b3 04 b5 04 b7 04 b9 04 bb 04 bd 04 bf 04 c1 04 c3 04 c5 04 c6 04 c8 04 ca 04 cc 04 ce 04 d0 04 d2 04 d3 04 d5 04 d7 04 d9 04 db 04 dc 04 de 04 e0 04 e2 04 e3 04 e5 04 e7 04 e9 04 ea 04 ec 04 ee 04 ef 04 f1 04 f3 04 f4 04 f6 04 f8 04 f9 04 fb 04 fc 04 fe 04 00 05 01 05 03 05 04 05 06 05 08 05 09 05 0b 05 0c 05 0e 05 0f 05 11 05 12 05 14 05 15 05 17 05 18 05 1a 05 1b 05 1d 05 1e 05 1f 05 21 05 22 05 24 05 25 05 27 05 28 05 29 05 2b 05 2c 05 2e 05 2f 05 30 05 32 05 33 05 34 05 36 05 37 05 39 05 3a 05 3b 05 3d 05 3e 05 3f 05 40 05 42 05 43 05 44 05
+        name (10): "backlight"
+        aab-cap-e (8): 0x138803e8001e0000
+        calibratedMinCurrent (4): 0x199a
+        iDAC2MilliAmpsTable (1024): 86 00 00 00 89 00 00 00 8c 00 00 00 90 00 00 00 93 00 00 00 97 00 00 00 9b 00 00 00 9f 00 00 00 a3 00 00 00 a7 00 00 00 ab 00 00 00 af 00 00 00 b3 00 00 00 b8 00 00 00 bc 00 00 00 c1 00 00 00 c6 00 00 00 ca 00 00 00 cf 00 00 00 d4 00 00 00 da 00 00 00 df 00 00 00 e5 00 00 00 ea 00 00 00 f0 00 00 00 f6 00 00 00 fc 00 00 00 02 01 00 00 08 01 00 00 0f 01 00 00 16 01 00 00 1c 01 00 00 23 01 00 00 2b 01 00 00 32 01 00 00 3a 01 00 00 41 01 00 00 49 01 00 00 51 01 00 00 5a 01 00 00 62 01 00 00 6b 01 00 00 74 01 00 00 7d 01 00 00 86 01 00 00 90 01 00 00 9a 01 00 00 a4 01 00 00 ae 01 00 00 b9 01 00 00 c3 01 00 00 cf 01 00 00 da 01 00 00 e6 01 00 00 f2 01 00 00 fe 01 00 00 0a 02 00 00 17 02 00 00 24 02 00 00 32 02 00 00 40 02 00 00 4e 02 00 00 5c 02 00 00 6b 02 00 00 7a 02 00 00 8a 02 00 00 9a 02 00 00 aa 02 00 00 bb 02 00 00 cc 02 00 00 de 02 00 00 f0 02 00 00 02 03 00 00 15 03 00 00 29 03 00 00 3d 03 00 00 51 03 00 00 66 03 00 00 7b 03 00 00 91 03 00 00 a8 03 00 00 bf 03 00 00 d6 03 00 00 ee 03 00 00 07 04 00 00 20 04 00 00 3a 04 00 00 55 04 00 00 70 04 00 00 8c 04 00 00 a9 04 00 00 c6 04 00 00 e4 04 00 00 03 05 00 00 22 05 00 00 43 05 00 00 64 05 00 00 86 05 00 00 a8 05 00 00 cc 05 00 00 f1 05 00 00 16 06 00 00 3c 06 00 00 63 06 00 00 8c 06 00 00 b5 06 00 00 df 06 00 00 0a 07 00 00 36 07 00 00 64 07 00 00 92 07 00 00 c2 07 00 00 f3 07 00 00 25 08 00 00 58 08 00 00 8d 08 00 00 c2 08 00 00 f9 08 00 00 32 09 00 00 6c 09 00 00 a7 09 00 00 e4 09 00 00 22 0a 00 00 62 0a 00 00 a3 0a 00 00 e6 0a 00 00 2a 0b 00 00 71 0b 00 00 b9 0b 00 00 02 0c 00 00 4e 0c 00 00 9b 0c 00 00 eb 0c 00 00 3c 0d 00 00 8f 0d 00 00 e4 0d 00 00 3c 0e 00 00 95 0e 00 00 f1 0e 00 00 4f 0f 00 00 af 0f 00 00 12 10 00 00 77 10 00 00 df 10 00 00 49 11 00 00 b5 11 00 00 25 12 00 00 97 12 00 00 0c 13 00 00 84 13 00 00 fe 13 00 00 7c 14 00 00 fd 14 00 00 81 15 00 00 08 16 00 00 93 16 00 00 21 17 00 00 b2 17 00 00 47 18 00 00 e0 18 00 00 7d 19 00 00 1d 1a 00 00 c1 1a 00 00 69 1b 00 00 16 1c 00 00 c7 1c 00 00 7c 1d 00 00 35 1e 00 00 f3 1e 00 00 b6 1f 00 00 7d 20 00 00 49 21 00 00 1b 22 00 00 f1 22 00 00 cd 23 00 00 ae 24 00 00 95 25 00 00 81 26 00 00 74 27 00 00 6c 28 00 00 6a 29 00 00 6e 2a 00 00 79 2b 00 00 8b 2c 00 00 a3 2d 00 00 c2 2e 00 00 e8 2f 00 00 15 31 00 00 4a 32 00 00 86 33 00 00 cb 34 00 00 17 36 00 00 6b 37 00 00 c7 38 00 00 2c 3a 00 00 9a 3b 00 00 11 3d 00 00 91 3e 00 00 1b 40 00 00 ae 41 00 00 4b 43 00 00 f2 44 00 00 a4 46 00 00 60 48 00 00 28 4a 00 00 fa 4b 00 00 d8 4d 00 00 c1 4f 00 00 b7 51 00 00 b9 53 00 00 c8 55 00 00 e3 57 00 00 0c 5a 00 00 42 5c 00 00 86 5e 00 00 d9 60 00 00 3a 63 00 00 aa 65 00 00 2a 68 00 00 b9 6a 00 00 58 6d 00 00 08 70 00 00 c8 72 00 00 9a 75 00 00 7e 78 00 00 74 7b 00 00 7c 7e 00 00 98 81 00 00 c7 84 00 00 0a 88 00 00 62 8b 00 00 ce 8e 00 00 50 92 00 00 e9 95 00 00 98 99 00 00 5e 9d 00 00 3b a1 00 00 31 a5 00 00 40 a9 00 00 69 ad 00 00 ac b1 00 00 09 b6 00 00 82 ba 00 00 17 bf 00 00 c9 c3 00 00 98 c8 00 00 86 cd 00 00 93 d2 00 00 bf d7 00 00 0c dd 00 00 7a e2 00 00 0b e8 00 00 be ed 00 00 95 f3 00 00 91 f9 00 00 b3 ff 00 00
+        max-restriction-factor (4): 0x352
+        compatible (10): "backlight"
+        device_type (10): "backlight"
+        dim-ramp-max-step (4): 0x64
+        use-AAB-architecture (4): 0x1
+        min-restriction-factor (4): 0x7d0
+        max-restriction-enableth (4): 0x12c
+        max-restriction-factor-aaboff (4): 0x352
+        aab-constraint-lmax (4): 0x28a
+        sync-backlight-off (4): 0x1
+        use-AAP (4): 0x1
+        min-restriction-factor-aaboff (4): 0x7d0
+        default-whitepoint-type (4): 0x1
+        function-disp_aap_ctrl (8): "`\0\0\0aPDA"
+        milliAmps2DACTablePart2 (256): 44 05 57 05 68 05 79 05 89 05 98 05 a6 05 b4 05 c1 05 ce 05 db 05 e6 05 f2 05 fd 05 08 06 12 06 1c 06 26 06 2f 06 38 06 41 06 4a 06 52 06 5b 06 63 06 6b 06 72 06 7a 06 81 06 88 06 90 06 96 06 9d 06 a4 06 aa 06 b1 06 b7 06 bd 06 c3 06 c9 06 cf 06 d4 06 da 06 df 06 e5 06 ea 06 ef 06 f5 06 fa 06 ff 06 04 07 09 07 0d 07 12 07 17 07 1b 07 20 07 24 07 29 07 2d 07 31 07 36 07 3a 07 3e 07 42 07 46 07 4a 07 4e 07 52 07 56 07 59 07 5d 07 61 07 64 07 68 07 6c 07 6f 07 73 07 76 07 7a 07 7d 07 80 07 84 07 87 07 8a 07 8e 07 91 07 94 07 97 07 9a 07 9d 07 a0 07 a3 07 a6 07 a9 07 ac 07 af 07 b2 07 b5 07 b8 07 bb 07 bd 07 c0 07 c3 07 c6 07 c8 07 cb 07 ce 07 d0 07 d3 07 d6 07 d8 07 db 07 dd 07 e0 07 e2 07 e5 07 e7 07 ea 07 ec 07 ef 07 f1 07 f3 07 f6 07 f8 07 fa 07 fd 07 ff 07
+        mA2Nits1stOrderCoef (4): 0xe37
+    baseband:
+        class (4): 0x3
+        function-pmu_exton_config (20): "N\0\0\0cIPG\x01\0\0\0\x07\x01\0\0\x07\x04\0\0"
+        backpowering-pin-count (4): 0x1
+        device-imei (32): ""
+        function-bb_on (16): "N\0\0\0OIPG\x02\0\0\0\x01\x01\0\0"
+        backpowering-alias-count (4): 0x1
+        function-coredump (16): "\x17\0\0\0OIPG\xa3\0\0\0\x01\x01\0\0"
+        region-sku (29): "syscfg/RSKU/0x40,zeroes/0x40"
+        function-bb_usb_mux (16): "\xa7\0\0\0ndpd\0\0\0\01bsu"
+        AAPL,phandle (4): 0xaa
+        function-pmu_exton (16): "N\0\0\0OIPG\x01\0\0\0\0\x01\0\0"
+        function-bb_rst (16): "\x17\0\0\0OIPG\x19\0\0\0\0\0\0\0"
+        imeisv (4): 0x22
+        function-pcie_port_control (12): "\x8b\0\0\0CtrP\x8e\0\0\0"
+        name (9): "baseband"
+        interrupt-parent (8): 0x4e00000017
+        function-bb_ap_time_sync (16): "\x17\0\0\0OIPG\x1e\0\0\0\0\x01\0\0"
+        compatible (13): "baseband,n41"
+        function-bb_uart_mux (16): "\xa7\0\0\0ndpd\x01\0\0\02tru"
+        function-radio_on (16): "\x17\0\0\0OIPG\xaa\0\0\0\0\0\0\0"
+        function-backpowering_pin0 (16): "\x17\0\0\0OIPG\xa2\0\0\0\0\x01\0\0"
+        function-sac (44): "\xab\0\0\0CCAS0dcl0mac2mac4mac6mac7mac8mac9macxorp"
+        interrupts (12): 26 00 00 00 04 00 00 00 31 00 00 00
+        function-bb_ldo (16): "N\0\0\0OIPG\x0e\0\0\0\x01\x01\0\0"
+        backpowering-alias0 (18): "function-coredump"
+        device_type (9): "baseband"
+        function-reset_det (16): "\x17\0\0\0OIPG&\0\0\0\0\0\0\0"
+        config (40): fa 00 00 00 f4 01 00 00 44 48 00 00 e8 03 00 00 64 00 00 00 64 00 00 00 83 00 00 00 25 00 00 00 14 00 00 00 64 00 00 00
+    sacm:
+        compatible (7): "sacm,1"
+        name (5): "sacm"
+        AAPL,phandle (4): 0xab
+    defaults:
+        name (9): "defaults"
+        kern.hibernation_min_processes (4): 0x4
+        panic-reset-type (4): 0x1
+        AAPL,phandle (4): 0xac
+        kern.vm_compressor (4): 0x20
+        kern.io_throttle_window_tier3 (4): 0x64
+        content-protect (0)
+        data-journaling (0)
+        supported-legacy-panic-flow (0)
+        use-lwvm (0)
+        kern.maxkfsevents (4): 0x400
+        l2-ecc-correctable-panic (4): 0x1
+        kern.max_task_pmem (4): 0x5aa
+        kern.maxvnodes (4): 0x125c
+        cpx-encryption-mode (4): 0x1
+        kern.io_throttle_period_tier3 (4): 0x14
+    product:
+        sandman-support (4): 0x1
+        display-mirroring (4): 0x1
+        car-integration (4): 0x1
+        assistant (4): 0x1
+        lockdown-certtype (4): 0x1
+        wifi-chipset (5): "4355"
+        product-name (9): "iPhone 7"
+        hearingaid-audio-equalization (4): 0x1
+        RF-exposure-separation-distance (4): 0x5
+        mobiledevice-min-ver (5): "1170"
+        product-id (20): 53 08 f5 a2 a8 93 cd 44 49 46 ca b7 ae c4 ab 2e b4 82 1a eb
+        gps-capable (4): 0x1
+        product-description (9): "iPhone 7"
+        allow-32bit-apps (4): 0x1
+        low-power-wallet-mode (4): 0x1
+        builtin-mics (4): 0x4
+        compatible-device-fallback (10): "iPhone8,1"
+        device-perf-memory-class (4): 0x2
+        artwork-scale-factor (4): 0x2
+        ui-background-quality (4): 0x64
+        hearingaid-low-energy-audio (4): 0x1
+        baseband-chipset (6): "mav16"
+        supports-avatars (0)
+        public-key-accelerator (4): 0x1
+        name (8): "product"
+        siri-gesture (4): 0x1
+        artwork-device-idiom (6): "phone"
+        device-color-policy (4): 0
+        graphics-featureset-class (7): "APPLE3"
+        AAPL,phandle (4): 0xad
+        artwork-dynamic-displaymode (2): 0x30
+        bluetooth-le (4): 0x1
+        watch-companion (4): 0x1
+        iap2-protocol-supported (4): 0x1
+        activation-protocol-version (4): 0x2
+        ptp-large-files (4): 0x1
+        udid-version (4): 0x1
+        offline-dictation (4): 0x1
+        cover-glass (12): "syscfg/CGSp"
+        location-reminders (4): 0x1
+        ui-weather-quality (4): 0x64
+        graphics-featureset-fallbacks (31): "APPLE3v1:APPLE2:APPLE1:GLES2,0"
+        dictation (4): 0x1
+        itunes-min-ver (4): 0xc0500
+        device-colors (12): "syscfg/DClr"
+        ui-reachability (4): 0x1
+        display-backlight-compensation (12): "syscfg/DBCl"
+        artwork-display-gamut (3): "P3"
+        personal-hotspot (4): 0x1
+        single-stage-boot (4): 0x1
+        mobiledevice-beta-min-ver (17): "988.250.11.100.1"
+        thin-bezel (4): 0x1
+        artwork-device-subtype (4): 0x239
+        primary-calibration-matrix (40): ""
+        display-temp-compensation (12): "syscfg/DTCl"
+        camera:
+            rear-max-video-fps-4k (4): 0x1e
+            rear-max-video-zoom (4): 0x3
+            camera-hdr-version (4): 0x2
+            auto-focus (4): 0x1
+            front-auto-hdr (4): 0x1
+            rear-max-video-fps-720p (4): 0x3c
+            front-burst-image-duration (4): 0x64
+            rear-slowmo (4): 0x1
+            flash (4): 0x1
+            pipelined-stillimage-capability (4): 0x1
+            rear-max-slomo-video-fps-1080p (4): 0x78
+            front-hdr (4): 0x1
+            front-flash-capability (4): 0x1
+            video-cap (4): 0x2
+            front-hdr-on (4): 0x1
+            rear-max-slomo-video-fps-720p (4): 0xf0
+            front-burst (4): 0x1
+            rear-auto-hdr (4): 0x1
+            rear-burst-image-duration (4): 0x64
+            name (7): "camera"
+            p3-color-space-video-recording (4): 0x1
+            video-stills (4): 0x1
+            AAPL,phandle (4): 0xae
+            rear-max-video-frame_rate (4): 0x3c
+            rear-hdr-on (4): 0x1
+            rear-max-video-fps-1080p (4): 0x3c
+            rear-hdr (4): 0x1
+            rear-burst (4): 0x1
+            post-effects (4): 0x1
+            live-effects (4): 0x1
+            front-max-video-zoom (4): 0x1
+            front-max-video-fps-720p (4): 0x1e
+            panorama (4): 0x1
+            front-max-video-fps-1080p (4): 0x1e
+            live-photo-capture (4): 0x1
+        facetime:
+            tnr-mode-back (4): 0xa
+            bitrate-3g (4): 0xe4
+            decoding (48): 40 01 00 00 0f 00 f0 00 40 01 00 00 1e 00 f0 00 e0 01 00 00 0f 00 70 01 e0 01 00 00 1e 00 70 01 80 02 00 00 1e 00 e0 01 00 04 00 00 1e 00 00 03
+            AAPL,phandle (4): 0xaf
+            bitrate-lte (4): 0xe4
+            tnr-mode-front (4): 0xa
+            bitrate-2g (4): 0x64
+            pref-decoding (8): 0x300001e00000400
+            bitrate-wifi (4): 0x7d0
+            encoding (56): 40 01 00 00 0f 00 f0 00 40 01 00 00 1e 00 f0 00 e0 01 00 00 0f 00 70 01 e0 01 00 00 1e 00 70 01 80 02 00 00 1e 00 e0 01 00 04 00 00 1e 00 00 03 00 05 00 00 1e 00 d0 02
+            name (9): "facetime"
+        maps:
+            name (5): "maps"
+            AAPL,phandle (4): 0xb0
+            adaptive-ui (0)
+            navigation (4): 0
+            3d-imagery (4): 0
+            3d-maps (4): 0
+        haptics:
+            closed-loop (4): 0x1
+            name (8): "haptics"
+            AAPL,phandle (4): 0xb1
+        audio:
+            supports-always-listening (4): 0x1
+            name (6): "audio"
+            AAPL,phandle (4): 0xb2
+    filesystems:
+        name (12): "filesystems"
+        AAPL,phandle (4): 0xb3
+        fstab:
+            AAPL,phandle (4): 0xb4
+            max_fs_entries (4): 0x6
+            name (6): "fstab"
+            os_env_type (4): 0x1
+            xart-vol:
+                vol.fs_mntopts (22): "nosuid,nodev,nobrowse"
+                vol.fs_type (3): "rw"
+                vol.fs_role (4): 0x100
+                vol.fs_name (5): "xART"
+                vol.fs_file (15): "/private/xarts"
+                vol.fs_passno (4): 0x1
+                vol.fs_mntorder (4): 0x1
+                name (9): "xart-vol"
+                AAPL,phandle (4): 0xb5
+            system-vol:
+                vol.fs_mntopts (0)
+                vol.fs_type (3): "ro"
+                vol.fs_role (4): 0x1
+                vol.fs_name (7): "System"
+                vol.fs_file (2): 0x2f
+                vol.fs_passno (4): 0x1
+                vol.fs_mntorder (4): 0
+                name (11): "system-vol"
+                AAPL,phandle (4): 0xb6
+            data-vol:
+                vol.fs_mntopts (13): "nosuid,nodev"
+                vol.fs_type (3): "rw"
+                vol.fs_role (4): 0x40
+                vol.fs_name (5): "Data"
+                vol.fs_file (13): "/private/var"
+                vol.fs_passno (4): 0x2
+                vol.fs_mntorder (4): 0x2
+                name (9): "data-vol"
+                AAPL,phandle (4): 0xb7
+            baseband-vol:
+                vol.fs_mntopts (22): "nosuid,nodev,nobrowse"
+                vol.fs_type (3): "rw"
+                vol.fs_role (4): 0x80
+                vol.fs_name (14): "Baseband-Data"
+                vol.fs_file (36): "/private/var/wireless/baseband_data"
+                vol.fs_passno (4): 0x2
+                vol.fs_mntorder (4): 0x3
+                name (13): "baseband-vol"
+                AAPL,phandle (4): 0xb8
+            update-vol:
+                vol.fs_mntopts (22): "nosuid,nodev,nobrowse"
+                vol.fs_type (3): "rw"
+                vol.fs_role (4): 0xc0
+                vol.fs_name (7): "Update"
+                vol.fs_file (34): "/private/var/MobileSoftwareUpdate"
+                vol.fs_passno (4): 0x2
+                vol.fs_mntorder (4): 0x4
+                name (11): "update-vol"
+                AAPL,phandle (4): 0xb9
+        fstab-ephemeral-recovery-data:
+            AAPL,phandle (4): 0xba
+            max_fs_entries (4): 0x1
+            name (30): "fstab-ephemeral-recovery-data"
+            os_env_type (4): 0x2
+            ephemeral-recovery-data-vol:
+                AAPL,phandle (4): 0xbb
+                vol.fs_mntopts (48): "nosuid,nodev,size=262144,template=/private/var/"
+                vol.fs_type (3): "rw"
+                vol.fs_name (5): "Data"
+                vol.fs_ephemeral (0)
+                vol.fs_file (13): "/private/var"
+                vol.fs_mntorder (4): 0
+                name (28): "ephemeral-recovery-data-vol"
+                vol.fs_passno (4): 0x2
+        fstab-ephemeral-diag-data:
+            AAPL,phandle (4): 0xbc
+            max_fs_entries (4): 0x6
+            name (26): "fstab-ephemeral-diag-data"
+            os_env_type (4): 0x1
+            ephemeral-diag-data-vol:
+                AAPL,phandle (4): 0xbd
+                vol.fs_mntopts (49): "nosuid,nodev,size=1048576,template=/private/var/"
+                vol.fs_type (3): "rw"
+                vol.fs_name (5): "Data"
+                vol.fs_ephemeral (0)
+                vol.fs_file (13): "/private/var"
+                vol.fs_mntorder (4): 0
+                name (24): "ephemeral-diag-data-vol"
+                vol.fs_passno (4): 0x2
+            baseband-vol:
+                vol.fs_mntopts (22): "nosuid,nodev,nobrowse"
+                vol.fs_type (3): "rw"
+                vol.fs_role (4): 0x80
+                vol.fs_name (14): "Baseband-Data"
+                vol.fs_file (36): "/private/var/wireless/baseband_data"
+                vol.fs_passno (4): 0x2
+                vol.fs_mntorder (4): 0x3
+                name (13): "baseband-vol"
+                AAPL,phandle (4): 0xbe
+            update-vol:
+                vol.fs_mntopts (22): "nosuid,nodev,nobrowse"
+                vol.fs_type (3): "rw"
+                vol.fs_role (4): 0xc0
+                vol.fs_name (7): "Update"
+                vol.fs_file (34): "/private/var/MobileSoftwareUpdate"
+                vol.fs_passno (4): 0x2
+                vol.fs_mntorder (4): 0x4
+                name (11): "update-vol"
+                AAPL,phandle (4): 0xbf
+    osenvironments:
+        name (15): "osenvironments"
+        AAPL,phandle (4): 0xc0
+        recovery-environment:
+            name (21): "recovery-environment"
+            AAPL,phandle (4): 0xc1
+            ephemeral-recovery-data-volume:
+                parent (13): "/filesystems"
+                AAPL,phandle (4): 0xc2
+                replacement (30): "fstab-ephemeral-recovery-data"
+                name (31): "ephemeral-recovery-data-volume"
+                node (6): "fstab"
+            ephemeral-storage:
+                property_name (18): "ephemeral-storage"
+                value (4): 0x1
+                name (18): "ephemeral-storage"
+                AAPL,phandle (4): 0xc3
+            no-sepfw-load-at-boot:
+                property_name (19): "sepfw-load-at-boot"
+                value (4): 0
+                name (22): "no-sepfw-load-at-boot"
+                AAPL,phandle (4): 0xc4
+            no-protected-data-access:
+                property_name (22): "protected-data-access"
+                value (4): 0
+                name (25): "no-protected-data-access"
+                AAPL,phandle (4): 0xc5
+            amfi-allows-trust-cache-load:
+                property_name (29): "amfi-allows-trust-cache-load"
+                value (4): 0x1
+                name (29): "amfi-allows-trust-cache-load"
+                AAPL,phandle (4): 0xc6
+            disable-av-content-protection:
+                property_name (30): "disable-av-content-protection"
+                value (4): 0x1
+                name (30): "disable-av-content-protection"
+                AAPL,phandle (4): 0xc7
+            use-recovery-securityd:
+                property_name (23): "use-recovery-securityd"
+                value (4): 0x1
+                name (23): "use-recovery-securityd"
+                AAPL,phandle (4): 0xc8
+            disable-accessory-firmware:
+                property_name (27): "disable-accessory-firmware"
+                value (4): 0x1
+                name (27): "disable-accessory-firmware"
+                AAPL,phandle (4): 0xc9
+        diagnostics-environment:
+            name (24): "diagnostics-environment"
+            AAPL,phandle (4): 0xca
+            ephemeral-diag-data-volume:
+                parent (13): "/filesystems"
+                AAPL,phandle (4): 0xcb
+                replacement (26): "fstab-ephemeral-diag-data"
+                name (27): "ephemeral-diag-data-volume"
+                node (6): "fstab"
+            ephemeral-storage:
+                property_name (18): "ephemeral-storage"
+                value (4): 0x1
+                name (18): "ephemeral-storage"
+                AAPL,phandle (4): 0xcc
+            disable-transport-rm:
+                property_name (21): "disable-transport-rm"
+                value (4): 0x1
+                name (21): "disable-transport-rm"
+                AAPL,phandle (4): 0xcd
+            no-protected-data-access:
+                property_name (22): "protected-data-access"
+                value (4): 0
+                name (25): "no-protected-data-access"
+                AAPL,phandle (4): 0xce
+        darwinos-ramdisk-environment:
+            name (29): "darwinos-ramdisk-environment"
+            AAPL,phandle (4): 0xcf
+            ephemeral-recovery-data-volume:
+                parent (13): "/filesystems"
+                AAPL,phandle (4): 0xd0
+                replacement (30): "fstab-ephemeral-recovery-data"
+                name (31): "ephemeral-recovery-data-volume"
+                node (6): "fstab"
+            ephemeral-storage:
+                property_name (18): "ephemeral-storage"
+                value (4): 0x1
+                name (18): "ephemeral-storage"
+                AAPL,phandle (4): 0xd1
+            no-protected-data-access:
+                property_name (22): "protected-data-access"
+                value (4): 0
+                name (25): "no-protected-data-access"
+                AAPL,phandle (4): 0xd2
+            no-sepfw-load-at-boot:
+                property_name (19): "sepfw-load-at-boot"
+                value (4): 0
+                name (22): "no-sepfw-load-at-boot"
+                AAPL,phandle (4): 0xd3
